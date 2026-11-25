@@ -1008,7 +1008,7 @@
               "info@XYZ.com"
             ],
             "phones": [
-              "+00000000"
+              "+100000000"
             ],
             "callLabel": "Call Us",
             "bannerImage": "/images/hero-bg.png",
@@ -2495,8 +2495,8 @@
             "contactDetails": [
               {
                 "title": "Call Us",
-                "value": "+00000000",
-                "href": "tel:+919876543210",
+                "value": "+100000000",
+                "href": "tel:+100000000",
                 "icon": "Phone",
                 "symbol": "☎"
               },
@@ -2742,8 +2742,8 @@
       },
       "navbar": {
         "location": "742 Evergreen Terrace, 62704, United States",
-        "phone": "+00000000",
-        "phoneHref": "tel:+919876543210",
+        "phone": "+100000000",
+        "phoneHref": "tel:+100000000",
         "email": "info@XYZ.com",
         "emailHref": "mailto:info@XYZ.com",
         "homeAriaLabel": "ORVEXIS Home",
@@ -3226,8 +3226,8 @@
           {
             "icon": "phone",
             "title": "Call Us",
-            "value": "+00000000",
-            "href": "tel:+919876543210"
+            "value": "+100000000",
+            "href": "tel:+100000000"
           },
           {
             "icon": "email",
@@ -3308,8 +3308,8 @@
         "contactDetails": [
           {
             "icon": "phone",
-            "text": "+00000000",
-            "href": "tel:+919876543210"
+            "text": "+100000000",
+            "href": "tel:+100000000"
           },
           {
             "icon": "email",
