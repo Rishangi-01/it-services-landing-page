@@ -3080,7 +3080,7 @@
         "headingSuffix": "Say",
         "description": "Trusted by businesses across industries for reliable, innovative and result-driven IT solutions.",
         "sectionImage": {
-          "src": "/images/testimonial-bg.png",
+          "src": "/images/testimonial-bg.webp",
           "alt": "Clients experiencing innovative virtual reality technology"
         },
         "previousLabel": "Previous testimonial",
