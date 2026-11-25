@@ -1,0 +1,3337 @@
+{
+  "Insurance": {
+    "templateComponents": {
+      "template-1": {
+        "shared": {
+          "Site": "InsuranceSite1",
+          "Header": "InsuranceHeader1",
+          "Footer": "InsuranceFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Hero",
+                "component": "InsuranceHero1"
+              },
+              {
+                "key": "Highlights",
+                "component": "InsuranceHighlights1"
+              },
+              {
+                "key": "About",
+                "component": "InsuranceAbout1"
+              },
+              {
+                "key": "Plans",
+                "component": "InsurancePlans1"
+              },
+              {
+                "key": "Process",
+                "component": "InsuranceProcess1"
+              },
+              {
+                "key": "Stats",
+                "component": "InsuranceStats1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "InsuranceTestimonials1"
+              },
+              {
+                "key": "Cta",
+                "component": "InsuranceCta1"
+              },
+              {
+                "key": "Blog",
+                "component": "InsuranceBlog1"
+              }
+            ]
+          },
+          "about-us": {
+            "components": [
+              {
+                "key": "About",
+                "component": "InsuranceAbout1"
+              },
+              {
+                "key": "Stats",
+                "component": "InsuranceStats1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "InsuranceWhyChooseUs1"
+              }
+            ]
+          },
+          "insurance-plans": {
+            "components": [
+              {
+                "key": "Plans",
+                "component": "InsurancePlans1"
+              }
+            ]
+          },
+          "insurance-plan-detail": {
+            "expand": "items",
+            "components": [
+              {
+                "key": "PlanDetail",
+                "component": "InsurancePlanDetail1"
+              },
+              {
+                "key": "EnquiryForm",
+                "component": "InsuranceEnquiryForm1"
+              }
+            ]
+          },
+          "blogs": {
+            "components": [
+              {
+                "key": "Blog",
+                "component": "InsuranceBlog1"
+              }
+            ]
+          },
+          "blog-detail": {
+            "expand": "items",
+            "components": [
+              {
+                "key": "BlogDetail",
+                "component": "InsuranceBlogDetail1"
+              }
+            ]
+          },
+          "contact-us": {
+            "components": [
+              {
+                "key": "ContactPage",
+                "component": "InsuranceContactPage1"
+              },
+              {
+                "key": "EnquiryForm",
+                "component": "InsuranceEnquiryForm1"
+              }
+            ]
+          },
+          "enquire-now": {
+            "components": [
+              {
+                "key": "EnquirePage",
+                "component": "InsuranceEnquirePage1"
+              },
+              {
+                "key": "EnquiryForm",
+                "component": "InsuranceEnquiryForm1"
+              }
+            ]
+          },
+          "thank-you": {
+            "components": [
+              {
+                "key": "ThankYouPage",
+                "component": "InsuranceThankYouPage1"
+              }
+            ]
+          },
+          "faq": {
+            "components": [
+              {
+                "key": "FaqPage",
+                "component": "InsuranceFaqPage1"
+              }
+            ]
+          },
+          "privacy-policy": {
+            "components": [
+              {
+                "key": "PolicyPages",
+                "component": "InsurancePolicyPages1"
+              }
+            ]
+          },
+          "terms-and-conditions": {
+            "components": [
+              {
+                "key": "PolicyPages",
+                "component": "InsurancePolicyPages1"
+              }
+            ]
+          },
+          "cookie-policy": {
+            "components": [
+              {
+                "key": "PolicyPages",
+                "component": "InsurancePolicyPages1"
+              }
+            ]
+          },
+          "sitemap": {
+            "components": [
+              {
+                "key": "SitemapPage",
+                "component": "InsuranceSitemapPage1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "commerce": {
+      "productDetails": {
+        "hero": {
+          "breadcrumbLabel": "Breadcrumb",
+          "image": {
+            "src": "/images/hero.webp",
+            "alt": "Elegant fine jewellery with gold bracelets and diamond rings"
+          },
+          "heading": "Collection Detail",
+          "homeLabel": "Home",
+          "homeHref": "/",
+          "currentLabel": "Collection Detail"
+        },
+        "product": {
+          "name": "Eternal Premium Diamond Ring",
+          "price": 2499,
+          "rating": 4.8,
+          "reviews": 24,
+          "description": "A symbol of everlasting love, this exquisite diamond ring features a brilliant-cut center stone set in 18k gold, designed to shine for a lifetime. Crafted in premium white gold, this elegant piece is perfect for engagements, anniversaries or special occasions. This elegant ring showcases a brilliant round-cut diamond, carefully set in a handcrafted 18k gold band. Designed for those who appreciate fine craftsmanship and timeless beauty.",
+          "enquiryNow": {
+            "label": "Enquiry Now",
+            "href": "/enquiry-now"
+          },
+          "features": [
+            {
+              "label": "18k Gold",
+              "icon": "gem"
+            },
+            {
+              "label": "Certified Diamond",
+              "icon": "shield"
+            },
+            {
+              "label": "Lifetime Warranty",
+              "icon": "returns"
+            },
+            {
+              "label": "Free Shipping",
+              "icon": "truck"
+            }
+          ],
+          "sizes": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "initialSize": "7",
+          "images": [
+            {
+              "src": "/images/home/banner3.webp",
+              "alt": "Eternal diamond ring front view"
+            },
+            {
+              "src": "/images/about/banner1.webp",
+              "alt": "Diamond ring side detail"
+            },
+            {
+              "src": "/images/home/banner2.webp",
+              "alt": "Luxury jewelry close-up"
+            }
+          ]
+        },
+        "copy": {
+          "collection": "The Signature Collection",
+          "reviews": "{count} reviews",
+          "ratingAria": "Rated {rating} out of 5",
+          "selectSize": "Select Ring Size",
+          "sizeGuide": "Size Guide",
+          "quantity": "Quantity",
+          "decreaseQuantity": "Decrease quantity",
+          "increaseQuantity": "Increase quantity",
+          "addToCart": "Add to Cart",
+          "addedToCart": "Added to Cart",
+          "addToWishlist": "Add to Wishlist",
+          "addedToWishlist": "Added to Wishlist",
+          "removeFromWishlist": "Remove from wishlist",
+          "addProductToWishlist": "Add to wishlist",
+          "addedConfirmation": "Added to your shopping bag",
+          "cartCount": "Demo cart items added: {count}",
+          "dismissConfirmation": "Dismiss confirmation",
+          "previousImage": "Previous product image",
+          "nextImage": "Next product image",
+          "viewImage": "View image {index}",
+          "findFit": "Find your perfect fit",
+          "sizeGuideTitle": "Ring Size Guide",
+          "closeSizeGuide": "Close size guide",
+          "sizeGuideDescription": "Select your preferred size. Ring sizing can vary by region, so please confirm the sizing system before ordering.",
+          "sizeColumn": "Size",
+          "fitColumn": "Fit",
+          "selectedSize": "Currently selected",
+          "availableSize": "Available",
+          "sizeGuideNote": "This sample guide uses placeholder size labels. Replace these with your jeweler's verified size chart.",
+          "done": "Done"
+        }
+      },
+      "productExtraDetails": {
+        "eyebrow": "The Details",
+        "title": "Product Specifications",
+        "image": {
+          "src": "/images/home/banner3.webp",
+          "alt": "Eternal diamond ring in white gold"
+        },
+        "specifications": [
+          {
+            "label": "Diamond Type",
+            "value": "Lab-Grown Diamond"
+          },
+          {
+            "label": "Carat Weight",
+            "value": "1 Carat (ct.)"
+          },
+          {
+            "label": "Cut",
+            "value": "Round Brilliant Cut"
+          },
+          {
+            "label": "Color",
+            "value": "F (Near Colorless)"
+          },
+          {
+            "label": "Clarity",
+            "value": "VS1"
+          },
+          {
+            "label": "Metal Type",
+            "value": "White Gold (18K)"
+          },
+          {
+            "label": "Ring Size",
+            "value": "Available in All Sizes"
+          },
+          {
+            "label": "Certification",
+            "value": "IGI Certified"
+          }
+        ]
+      },
+      "productListing": {
+        "products": [
+          {
+            "id": 1,
+            "name": "Eternal Diamond Ring",
+            "category": "Rings",
+            "materials": [
+              "Gold",
+              "Diamond"
+            ],
+            "price": 3499,
+            "image": "/images/our-story/product3.webp"
+          },
+          {
+            "id": 2,
+            "name": "Golden Bloom Necklace",
+            "category": "Necklaces",
+            "materials": [
+              "Gold",
+              "Diamond"
+            ],
+            "price": 4999,
+            "image": "/images/our-story/product4.webp",
+            "badge": "Bestseller"
+          },
+          {
+            "id": 3,
+            "name": "Pearl Drop Earrings",
+            "category": "Earrings",
+            "materials": [
+              "Gold",
+              "Silver"
+            ],
+            "price": 2199,
+            "image": "/images/our-story/product5.webp"
+          },
+          {
+            "id": 4,
+            "name": "Royal Bangle",
+            "category": "Bracelets",
+            "materials": [
+              "Gold"
+            ],
+            "price": 1499,
+            "image": "/images/about/banner1.webp"
+          },
+          {
+            "id": 5,
+            "name": "Solitaire Ring",
+            "category": "Rings",
+            "materials": [
+              "Gold",
+              "Diamond",
+              "Platinum"
+            ],
+            "price": 3299,
+            "image": "/images/our-story/product2.webp"
+          },
+          {
+            "id": 6,
+            "name": "Celestial Earrings",
+            "category": "Earrings",
+            "materials": [
+              "Gold",
+              "Diamond"
+            ],
+            "price": 3299,
+            "image": "/images/home/banner4.webp"
+          },
+          {
+            "id": 7,
+            "name": "Golden Halo Ring",
+            "category": "Rings",
+            "materials": [
+              "Gold"
+            ],
+            "price": 2599,
+            "image": "/images/our-story/product4.webp"
+          },
+          {
+            "id": 8,
+            "name": "Classic Gold Chain",
+            "category": "Necklaces",
+            "materials": [
+              "Gold"
+            ],
+            "price": 1899,
+            "image": "/images/our-story/product5.webp"
+          },
+          {
+            "id": 9,
+            "name": "Golden Charm Bracelet",
+            "category": "Bracelets",
+            "materials": [
+              "Gold",
+              "Diamond"
+            ],
+            "price": 2899,
+            "image": "/images/home/banner4.webp"
+          }
+        ],
+        "categories": [
+          "Rings",
+          "Necklaces",
+          "Earrings",
+          "Bracelets"
+        ],
+        "materials": [
+          "Gold",
+          "Diamond",
+          "Platinum",
+          "Silver"
+        ],
+        "pageSize": 6,
+        "minimumPrice": 0,
+        "maxPrice": 50000,
+        "priceStep": 500,
+        "defaultSort": "featured",
+        "sortOptions": [
+          {
+            "value": "featured",
+            "label": "Best Selling"
+          },
+          {
+            "value": "price-low",
+            "label": "Price: Low to High"
+          },
+          {
+            "value": "price-high",
+            "label": "Price: High to Low"
+          },
+          {
+            "value": "name",
+            "label": "Name: A to Z"
+          }
+        ],
+        "copy": {
+          "filters": "Filters",
+          "clearAll": "Clear all",
+          "category": "Category",
+          "priceRange": "Price Range",
+          "maximumPrice": "Maximum price",
+          "materials": "Material",
+          "sortBy": "Sort By",
+          "sortProducts": "Sort products",
+          "sort": "Sort",
+          "productsCount": "{count} products",
+          "showing": "Showing",
+          "of": "of",
+          "crafted": "Crafted to be cherished",
+          "viewProduct": "View Product",
+          "viewProductAria": "View {name}",
+          "addToWishlist": "Add {name} to wishlist",
+          "removeFromWishlist": "Remove {name} from wishlist",
+          "inclusiveTaxes": "Inclusive of taxes",
+          "noProducts": "No pieces found",
+          "emptyDescription": "Try changing your filters to discover more of our collection.",
+          "clearFilters": "Clear Filters",
+          "previousPage": "Previous page",
+          "page": "Page {page}",
+          "nextPage": "Next page",
+          "closeFilters": "Close filters",
+          "productFilters": "Product filters",
+          "showProducts": "Show {count} Products",
+          "resetFilters": "Reset Filters",
+          "minimumPrice": "₹0",
+          "collectionHref": "/collections/collection-details"
+        }
+      },
+      "gallery": {
+        "headingPrefix": "Our",
+        "headingHighlight": "Gallery",
+        "description": "Explore our exquisite collection of handcrafted jewellery, capturing timeless elegance and fine craftsmanship.",
+        "paginationAriaLabel": "Gallery pagination",
+        "previousPageLabel": "Previous page",
+        "nextPageLabel": "Next page",
+        "goToPageLabelTemplate": "Go to gallery page {page}",
+        "pageLabelTemplate": "Page {current} of {total}",
+        "itemsPerPage": 6,
+        "items": [
+          {
+            "id": 1,
+            "title": "Traditional Gold Necklace",
+            "category": "Gold Jewellery",
+            "image": "/images/our-story/product2.webp"
+          },
+          {
+            "id": 2,
+            "title": "Diamond Solitaire Ring",
+            "category": "Diamond Jewellery",
+            "image": "/images/our-story/product3.webp"
+          },
+          {
+            "id": 3,
+            "title": "Diamond Drop Earrings",
+            "category": "Earrings",
+            "image": "/images/our-story/product4.webp"
+          },
+          {
+            "id": 4,
+            "title": "Diamond Tennis Bangles",
+            "category": "Bangles",
+            "image": "/images/our-story/product5.webp"
+          },
+          {
+            "id": 5,
+            "title": "Emerald Statement Ring",
+            "category": "Gemstone Jewellery",
+            "image": "/images/home/banner2.webp"
+          },
+          {
+            "id": 6,
+            "title": "Gold Pendant Necklace",
+            "category": "Necklaces",
+            "image": "/images/home/banner3.webp"
+          },
+          {
+            "id": 7,
+            "title": "Classic Gold Earrings",
+            "category": "Gold Jewellery",
+            "image": "/images/home/banner4.webp"
+          },
+          {
+            "id": 8,
+            "title": "Diamond Halo Ring",
+            "category": "Diamond Jewellery",
+            "image": "/images/home/banner2.webp"
+          },
+          {
+            "id": 9,
+            "title": "Elegant Pearl Earrings",
+            "category": "Earrings",
+            "image": "/images/collections/product1.webp"
+          },
+          {
+            "id": 10,
+            "title": "Gold Diamond Bracelet",
+            "category": "Bracelets",
+            "image": "/images/our-story/product2.webp"
+          },
+          {
+            "id": 11,
+            "title": "Ruby Gold Ring",
+            "category": "Gemstone Jewellery",
+            "image": "/images/our-story/product3.webp"
+          },
+          {
+            "id": 12,
+            "title": "Floral Diamond Pendant",
+            "category": "Necklaces",
+            "image": "/images/our-story/product4.webp"
+          },
+          {
+            "id": 13,
+            "title": "Royal Gold Necklace",
+            "category": "Gold Jewellery",
+            "image": "/images/our-story/product5.webp"
+          }
+        ]
+      },
+      "blog": {
+        "sectionEyebrow": "Fertility Insights",
+        "headingPrefix": "Latest updates and",
+        "headingHighlight": "expert fertility",
+        "headingSuffix": " insights",
+        "description": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+        "linkTemplate": "/blog/blog-details",
+        "detailsHref": "/blog/blog-details",
+        "readLabelTemplate": "Read {title}",
+        "moreDetailsLabel": "More Details",
+        "paginationAriaLabel": "Blog pagination",
+        "previousPageLabel": "Previous page",
+        "goToPageLabelTemplate": "Go to page {page}",
+        "nextPageLabel": "Next page",
+        "showingLabel": "Showing",
+        "rangeSeparator": "–",
+        "ofLabel": "of",
+        "articlesLabel": "articles",
+        "postsPerPage": 6,
+        "posts": [
+          {
+            "id": 1,
+            "category": "Fertility Insights",
+            "title": "How lifestyle choices can improve your chances of conception",
+            "description": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+            "image": "/images/home/success-story1.webp",
+            "date": "Oct 16",
+            "year": "2026",
+            "slug": "lifestyle-choices-and-conception"
+          },
+          {
+            "id": 2,
+            "category": "IVF Guides",
+            "title": "What to expect during your IVF treatment journey",
+            "description": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+            "image": "/images/home/success-story2.webp",
+            "date": "Oct 16",
+            "year": "2026",
+            "slug": "ivf-treatment-journey"
+          },
+          {
+            "id": 3,
+            "category": "Women's Health",
+            "title": "Understanding PCOS and its impact on fertility",
+            "description": "Understanding PCOS and its impact on fertility",
+            "image": "/images/home/success-story3.webp",
+            "date": "Oct 16",
+            "year": "2026",
+            "slug": "pcos-and-fertility"
+          },
+          {
+            "id": 4,
+            "category": "Care Tips",
+            "title": "Jewellery Care Tips to Keep Your Pieces Shining",
+            "description": "Keep your jewellery beautiful for years with these simple yet effective care tips. Learn how to clean, store and maintain your precious pieces.",
+            "image": "/images/our-story/product5.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "jewellery-care-tips"
+          },
+          {
+            "id": 5,
+            "category": "Traditional",
+            "title": "Traditional Jewellery Designs That Never Go Out of Style",
+            "description": "Explore timeless traditional jewellery designs that celebrate heritage, craftsmanship and elegance, perfect for every occasion.",
+            "image": "/images/home/banner2.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "traditional-jewellery-designs"
+          },
+          {
+            "id": 6,
+            "category": "Buying Guide",
+            "title": "How to Choose the Perfect Jewellery for Any Occasion",
+            "description": "Find the right jewellery for weddings, parties, office wear and daily use with our expert buying guide. Learn what to consider for every occasion.",
+            "image": "/images/home/banner3.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "choose-perfect-jewellery"
+          },
+          {
+            "id": 7,
+            "category": "Diamond Guide",
+            "title": "How to Choose the Perfect Diamond",
+            "description": "Understand the four Cs of diamonds and discover what to look for when choosing a beautiful piece for your collection.",
+            "image": "/images/home/banner4.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "perfect-diamond-guide"
+          },
+          {
+            "id": 8,
+            "category": "Gold Guide",
+            "title": "Understanding Gold Purity Before You Buy",
+            "description": "Learn about gold purity, karats and hallmarks so you can choose jewellery with confidence and clarity.",
+            "image": "/images/our-story/product2.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "understanding-gold-purity"
+          },
+          {
+            "id": 9,
+            "category": "Style Guide",
+            "title": "Everyday Jewellery That Feels Effortlessly Elegant",
+            "description": "Explore versatile necklaces, earrings and bracelets that bring understated elegance to your everyday outfits.",
+            "image": "/images/our-story/product3.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "everyday-jewellery"
+          },
+          {
+            "id": 10,
+            "category": "Bridal Guide",
+            "title": "A Guide to Choosing Your Wedding Necklace",
+            "description": "Find the right necklace for your neckline, wedding outfit and personal style with these timeless bridal styling ideas.",
+            "image": "/images/our-story/product4.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "wedding-necklace-guide"
+          },
+          {
+            "id": 11,
+            "category": "Inspiration",
+            "title": "Finding Your Signature Jewellery Style",
+            "description": "Discover how to build a jewellery collection that reflects your personality, preferences and favourite occasions.",
+            "image": "/images/our-story/product2.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "signature-jewellery-style"
+          }
+        ]
+      },
+      "blogDetails": {
+        "hero": {
+          "breadcrumbLabel": "Breadcrumb",
+          "image": {
+            "src": "/images/about/maternity-hero.webp",
+            "alt": "Expecting mother relaxing comfortably at home"
+          },
+          "heading": "Blog Details",
+          "homeLabel": "Home",
+          "homeHref": "/",
+          "currentLabel": "Blog Details"
+        },
+        "eyebrow": "Fertility Insights",
+        "headingFirst": "Understanding Your Fertility Journey: ",
+        "headingHighlight": "A Guide to Your Next Steps",
+        "dateTime": "2025-01-20",
+        "dateLabel": "JAN 20, 2025",
+        "introduction": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+        "image": {
+          "src": "/images/home/success-story1.webp",
+          "alt": "A mother holding her baby, representing family and reproductive health"
+        },
+        "quotation": "The right next step begins with reliable information and care tailored to your needs.",
+        "backLabel": "Back to Articles",
+        "articleHeading": "Understanding your fertility journey",
+        "disclaimer": {
+          "label": "Medical disclaimer:",
+          "text": "This article is for general educational purposes only and is not a substitute for medical advice, diagnosis, or treatment. Please consult a qualified healthcare professional for guidance specific to your situation."
+        },
+        "tips": [
+          {
+            "number": "01.",
+            "title": "A Guide to Getting Started",
+            "sectionTitle": "Understanding your fertility journey",
+            "paragraphs": [
+              "Fertility is a personal aspect of health, and every individual or couple may have different questions, circumstances, and goals. Understanding your options can help you have informed conversations with a qualified healthcare professional.",
+              "A good starting point is to discuss your medical history, concerns, and expectations with your healthcare provider. They can help determine which assessments, if any, may be appropriate for you."
+            ]
+          },
+          {
+            "number": "02.",
+            "title": "Lifestyle and reproductive health",
+            "sectionTitle": "Lifestyle and reproductive health",
+            "paragraphs": [
+              "General health habits can support overall well-being. Eating a varied, balanced diet, getting adequate rest, avoiding tobacco, and discussing medications or supplements with a clinician can all be useful topics to consider.",
+              "Lifestyle changes cannot guarantee conception. Your age, medical history, and other factors may influence fertility, so personalized guidance is important."
+            ]
+          },
+          {
+            "number": "03.",
+            "title": "Understanding treatment options",
+            "sectionTitle": "Understanding treatment options",
+            "paragraphs": [
+              "Depending on your circumstances, a specialist may discuss diagnostic testing, medication, intrauterine insemination (IUI), in vitro fertilization (IVF), or other approaches. Not every option is appropriate for every person."
+            ],
+            "cards": [
+              {
+                "icon": "heart",
+                "title": "Personalized guidance",
+                "text": "Discuss your health history and potential options with a qualified fertility specialist."
+              },
+              {
+                "icon": "message-circle",
+                "title": "Clear communication",
+                "text": "Ask about benefits, risks, costs, alternatives, and what to expect at each stage."
+              }
+            ]
+          },
+          {
+            "number": "04.",
+            "title": "Questions to ask your specialist",
+            "sectionTitle": "Questions to ask your specialist",
+            "paragraphs": [
+              "Preparing questions before an appointment can help you understand the available choices and feel more comfortable participating in decisions about your care.",
+              "Which assessments might be appropriate for my situation?",
+              "What treatment options could be considered, and why?",
+              "What are the possible risks, benefits, and costs?",
+              "Where can I find reliable support and information?"
+            ]
+          }
+        ]
+      },
+      "enquiryNow": {
+        "hero": {
+          "breadcrumbLabel": "Breadcrumb",
+          "image": {
+            "src": "/images/about/maternity-hero.webp",
+            "alt": "Expecting mother relaxing comfortably at home"
+          },
+          "heading": "Book An Appointment",
+          "homeLabel": "Home",
+          "homeHref": "/",
+          "currentLabel": "Book An Appointment"
+        },
+        "section": {
+          "image": {
+            "src": "/images/home/banner1.webp",
+            "alt": "Expectant couple sharing a joyful moment during their journey to parenthood"
+          },
+          "benefitsHeader": {
+            "eyebrow": "Schedule a Visit",
+            "title": "Let's Get Started",
+            "description": "Complete the form to request your visit."
+          },
+          "benefits": [
+            {
+              "icon": "HeartPulse",
+              "title": "Compassionate Care",
+              "description": "With heart at every step"
+            },
+            {
+              "icon": "UserRound",
+              "title": "Expert Team",
+              "description": "Skilled and experienced"
+            },
+            {
+              "icon": "MonitorCheck",
+              "title": "Advanced Technology",
+              "description": "For better care"
+            },
+            {
+              "icon": "UsersRound",
+              "title": "Personalized Approach",
+              "description": "Because you are unique"
+            }
+          ],
+          "form": {
+            "eyebrow": "Schedule a Visit",
+            "title": "Let's Get Started",
+            "description": "Complete the form to request your visit.",
+            "fields": {
+              "fullName": {
+                "label": "First Name *",
+                "placeholder": "Your first name"
+              },
+              "email": {
+                "label": "Email Address *",
+                "placeholder": "you@example.com"
+              },
+              "phone": {
+                "label": "Phone Number *",
+                "placeholder": "+1 00000000"
+              },
+              "interest": {
+                "label": "Consultation Type *",
+                "placeholder": "Select a consultation",
+                "options": [
+                  "Fertility Consultation",
+                  "IVF Consultation",
+                  "IUI Consultation",
+                  "PCOS & Reproductive Health",
+                  "Pregnancy Consultation",
+                  "Follow-up Appointment",
+                  "Online Consultation"
+                ]
+              },
+              "lastName": {
+                "label": "Last Name *",
+                "placeholder": "Your last name"
+              },
+              "doctor": {
+                "label": "Preferred Specialist",
+                "options": [
+                  "Any Available Specialist",
+                  "Fertility Specialist",
+                  "Gynecologist",
+                  "Reproductive Health Consultant"
+                ]
+              },
+              "date": {
+                "label": "Preferred Date *"
+              },
+              "time": {
+                "label": "Preferred Time *",
+                "placeholder": "Select time",
+                "options": [
+                  "09:00 AM",
+                  "10:00 AM",
+                  "11:00 AM",
+                  "12:00 PM",
+                  "02:00 PM",
+                  "03:00 PM",
+                  "04:00 PM",
+                  "05:00 PM"
+                ]
+              },
+              "appointmentType": {
+                "label": "How would you like to meet?",
+                "options": [
+                  {
+                    "value": "In-clinic",
+                    "label": "In-clinic Visit"
+                  },
+                  {
+                    "value": "Online",
+                    "label": "Online Consultation"
+                  }
+                ]
+              },
+              "message": {
+                "label": "Additional Notes (Optional)",
+                "placeholder": "Anything you'd like us to know?",
+                "maxLength": 3000,
+                "counterSeparator": "/"
+              }
+            },
+            "status": {
+              "success": "Your enquiry has been submitted successfully.",
+              "error": "We couldn't submit your enquiry. Please try again.",
+              "requestError": "Unable to submit enquiry."
+            },
+            "submit": {
+              "label": "Submit Enquiry",
+              "submitting": "Submitting..."
+            },
+            "privacyNotice": "Your information should be handled securely and confidentially by the connected booking system."
+            ,
+            "appointment": {
+              "successTitle": "Request Prepared!",
+              "successText": "Your form passed browser validation. To confirm a real appointment, this page needs to be connected to your booking system or backend API.",
+              "successButton": "Book Another Appointment",
+              "submitLabel": "Request Appointment"
+            }
+          }
+        }
+      },
+      "signatureCollections": {
+        "eyebrow": "Comprehensive Fertility Treatments",
+        "title": "Fertility Treatments",
+        "viewAll": {
+          "label": "Our Services",
+          "href": "#services"
+        },
+        "collections": [
+          {
+            "name": "Maternity Care",
+            "description": "Compassionate support throughout your pregnancy.",
+            "image": "/images/home/wellness1.webp",
+            "alt": "Maternity Care at Hope IVF",
+            "number": "01"
+          },
+          {
+            "name": "Gynecology",
+            "description": "Personalized care for women's health at every stage.",
+            "image": "/images/home/wellness2.webp",
+            "alt": "Gynecology at Hope IVF",
+            "number": "02"
+          },
+          {
+            "name": "Pediatric Care",
+            "description": "Thoughtful healthcare for infants and growing children.",
+            "image": "/images/home/wellness3.webp",
+            "alt": "Pediatric Care at Hope IVF",
+            "number": "03"
+          },
+          {
+            "name": "Radiology",
+            "description": "Modern diagnostic imaging and clinical support.",
+            "image": "/images/home/wellness4.webp",
+            "alt": "Radiology at Hope IVF",
+            "number": "04"
+          }
+        ]
+      }
+    },
+    "sections": {
+      "Site": {
+        "variants": {
+          "InsuranceSite1": {
+            "bgImage": "/images/hero-bg.webp",
+            "alt": "ORVEXIS IT Solutions & Technology",
+            "name": "ORVEXIS",
+            "description": "Delivering innovative, secure and scalable IT solutions that drive business growth and digital transformation.",
+            "logo": "/images/logo.webp",
+            "logoWhite": "/images/logo-w.webp",
+            "heroImage": "/images/hero-bg.webp",
+            "heroImageAlt": "Business professionals celebrating successful teamwork",
+            "metadata": {
+              "title": "Create Next App",
+              "description": "Generated by create next app"
+            },
+            "mobileMenu": {
+              "openLabel": "Open menu",
+              "closeLabel": "Close menu",
+              "contactLabel": "Contact Us",
+              "contactHref": "#contact",
+              "ariaLabel": "Mobile navigation",
+              "phoneLabel": "",
+              "phoneHref": "",
+              "emailLabel": "info@XYZ.com",
+              "emailHref": "mailto:info@XYZ.com"
+            },
+            "addressLines": [
+              "742 Evergreen Terrace,",
+              "62704, United States"
+            ],
+            "emails": [
+              "info@XYZ.com"
+            ],
+            "phones": [
+              "+00000000"
+            ],
+            "callLabel": "Call Us",
+            "bannerImage": "/images/hero-bg.png",
+            "socials": [
+              {
+                "icon": "FaFacebookF",
+                "symbol": "f",
+                "label": "Facebook",
+                "href": "#"
+              },
+              {
+                "icon": "FaInstagram",
+                "symbol": "◎",
+                "label": "Instagram",
+                "href": "#"
+              },
+              {
+                "icon": "FaYoutube",
+                "symbol": "▶",
+                "label": "YouTube",
+                "href": "#"
+              },
+              {
+                "icon": "FaLinkedinIn",
+                "symbol": "in",
+                "label": "LinkedIn",
+                "href": "#"
+              }
+            ],
+            "hours": [
+              {
+                "days": "Monday – Saturday",
+                "daysShort": "Mon – Sat",
+                "time": "9:00 AM – 6:00 PM"
+              },
+              {
+                "days": "Sunday",
+                "daysShort": "Sunday",
+                "time": "Closed"
+              }
+            ]
+          }
+        }
+      },
+      "Header": {
+        "variants": {
+          "InsuranceHeader1": {
+            "ariaLabel": "Main navigation",
+            "links": [
+              {
+                "label": "Home",
+                "href": "#home"
+              },
+              {
+                "label": "About Us",
+                "href": "#about-us"
+              },
+              {
+                "label": "Services",
+                "href": "#services",
+                "dropdown": false
+              },
+              {
+                "label": "Why Choose Us",
+                "href": "#why-choose-us"
+              },
+              {
+                "label": "Faqs",
+                "href": "#faqs"
+              }
+            ],
+            "button": {
+              "label": "Contact Us",
+              "href": "#contact"
+            }
+          }
+        }
+      },
+      "Hero": {
+        "variants": {
+          "InsuranceHero1": {
+            "previousLabel": "Previous slide",
+            "nextLabel": "Next slide",
+            "slides": [
+              {
+                "eyebrow": "IT & Technology Solutions",
+                "title": [
+                  "Technology Solutions",
+                  "for Business Growth"
+                ],
+                "text": "We build innovative, scalable and secure digital solutions to accelerate your business in the modern world.",
+                "image": "/images/hero-bg.webp",
+                "imageAlt": "Business professionals celebrating successful teamwork"
+              },
+              {
+                "eyebrow": "Residential Solar",
+                "title": [
+                  "Residential",
+                  "Solar"
+                ],
+                "text": "Clean, cost-effective, and reliable solar solutions for your home.",
+                "image": "/images/solar-factory.png",
+                "imageAlt": "Residential Solar"
+              },
+              {
+                "eyebrow": "Commercial & Industrial Solar",
+                "title": [
+                  "Commercial & Industrial",
+                  "Solar"
+                ],
+                "text": "Scalable solar systems to reduce energy costs and carbon footprint.",
+                "image": "/images/worker.png",
+                "imageAlt": "Commercial & Industrial Solar"
+              }
+            ]
+          }
+        }
+      },
+      "Highlights": {
+        "variants": {
+          "InsuranceHighlights1": {
+            "items": [
+              {
+                "icon": "Code2",
+                "title": "Software Development",
+                "text": "Custom, scalable and high-performance software solutions for your business needs."
+              },
+              {
+                "icon": "Cloud",
+                "title": "Cloud Solutions",
+                "text": "Flexible, secure and cost-efficient cloud services to modernize your IT infrastructure."
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Cybersecurity",
+                "text": "Comprehensive security solutions to protect your data, systems and business."
+              },
+              {
+                "icon": "BatteryCharging",
+                "title": "Battery Storage Solutions",
+                "text": "Store excess solar energy and enjoy reliable power whenever needed."
+              },
+              {
+                "icon": "Wrench",
+                "title": "Operation & Maintenance",
+                "text": "Keep your solar systems performing efficiently with expert maintenance."
+              },
+              {
+                "icon": "Sun",
+                "title": "Solar Energy Consultation",
+                "text": "Get expert guidance to choose the right solar solution for your needs."
+              }
+            ]
+          }
+        }
+      },
+      "About": {
+        "variants": {
+          "InsuranceAbout1": {
+            "heroTitle": "About Us",
+            "homeSection": {
+              "eyebrow": "About Us",
+              "title": [
+                "We Can Take Your Business",
+                "To The Next Level.",
+                ""
+              ]
+            },
+            "eyebrow": "About Us",
+            "title": "We Can Take Your Business To The",
+            "highlight": "Next Level.",
+            "mainImage": "/images/about-team.webp",
+            "mainImageAlt": "ORVEXIS team collaborating on innovative technology solutions",
+            "familyImage": "/images/about-team.webp",
+            "familyImageAlt": "ORVEXIS team collaborating on innovative technology solutions",
+            "homeText": "ORVEXIS is a technology-driven company delivering innovative, scalable and secure IT solutions that help businesses grow, optimize operations and stay ahead in the digital world.",
+            "experience": {
+              "value": "4000+",
+              "label": [
+                "Satisfied",
+                "Clients"
+              ]
+            },
+            "points": [
+              {
+                "icon": "/images/expertise.png",
+                "title": "Proven Expertise",
+                "text": "Years of experience in delivering solar solutions"
+              },
+              {
+                "icon": "/images/cost-effective.png",
+                "title": "Cost Effective",
+                "text": "Maximum savings with high energy efficiency"
+              },
+              {
+                "icon": "/images/reliable.png",
+                "title": "Reliable & Durable",
+                "text": "High-quality systems built for long-term use"
+              }
+            ],
+            "button": {
+              "label": "Our Services",
+              "href": "#services"
+            },
+            "pageParagraphs": [
+              "Helionex provides reliable, efficient, and sustainable solar energy solutions for homes, businesses, and industries. Our goal is to make clean and renewable energy accessible, affordable, and hassle-free.",
+              "With a focus on quality, innovation, and long-term performance, we deliver end-to-end solar solutions tailored to your energy needs.",
+              "From installation to maintenance, we deliver end-to-end solar services for homes, businesses, and industries.",
+              "We deliver reliable, efficient, and cost-effective solar solutions with a focus on quality, transparency, and long-term value."
+            ],
+            "mission": {
+              "eyebrow": "Our Goal",
+              "title": [
+                "Our",
+                "Goal"
+              ],
+              "button": {
+                "label": "Contact Us",
+                "href": "#contact"
+              },
+              "image": "/images/about-solar-main.png",
+              "imageAlt": "Solar panels generating clean energy at sunset"
+            },
+            "values": {
+              "eyebrow": "WHY CHOOSE US",
+              "title": "Sustainable Choice",
+              "text": "Clean, green, and renewable energy for a better tomorrow.",
+              "image": "/images/sustainable.png",
+              "imageAlt": ""
+            }
+          }
+        }
+      },
+      "WhyChooseUs": {
+        "variants": {
+          "InsuranceWhyChooseUs1": {
+            "eyebrow": "Why Choose Us",
+            "title": "The Right Technology Partner for",
+            "titleLine2": "",
+            "highlight": "Your Business",
+            "text": "We combine expertise, innovation and a client-first approach to deliver IT solutions that create real business value.",
+            "image": "/images/about-team.webp",
+            "imageAlt": "Professional technology team collaborating on innovative business solutions",
+            "leavesImage": "/images/strength-leaves.webp",
+            "tomatoesImage": "/images/strength-tomatoes.webp",
+            "backgroundImage": "/images/strength-bg.webp",
+            "items": [
+              {
+                "icon": "Users",
+                "title": ["Expert", "Team"],
+                "text": ["A skilled team of", "professionals with", "real-world experience."]
+              },
+              {
+                "icon": "Lightbulb",
+                "title": ["Innovative", "Solutions"],
+                "text": ["Modern and", "future-ready", "technology for lasting growth."]
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": ["Reliable", "& Secure"],
+                "text": ["Robust, scalable", "and secure solutions", "you can trust."]
+              },
+              {
+                "icon": "/images/sustainable.png",
+                "title": [
+                  "Sustainable",
+                  "Choice"
+                ],
+                "text": [
+                  "Clean, green, and",
+                  "renewable energy",
+                  "for a better tomorrow."
+                ]
+              }
+            ],
+            "homeItemCount": 4
+          }
+        }
+      },
+      "Plans": {
+        "variants": {
+          "InsurancePlans1": {
+            "heroTitle": "Comprehensive IT Solutions",
+            "eyebrow": "Our Services",
+            "title": "Comprehensive",
+            "highlight": "IT Solutions",
+            "text": "End-to-end technology services designed to build, scale and secure your business in the digital world.",
+            "buttonLabel": "Contact Us",
+            "serviceDetailsHref": "#services",
+            "learnMoreLabelTemplate": "Learn more about {name}",
+            "homeImage": "/images/installer.png",
+            "homeImageAlt": "Solar Installation",
+            "decorationImages": {
+              "leaves": "/images/solar-panel-top-decoration.webp",
+              "decoration": "/images/card-solar-decoration.webp"
+            },
+            "homeServiceSlugs": [
+              "solar-installation",
+              "residential-solar",
+              "commercial-industrial-solar",
+              "battery-storage-solutions",
+              "operation-maintenance"
+            ],
+            "treatmentCardCount": 6,
+            "treatmentHeading": [
+              "Complete Solar Energy",
+              "Solutions"
+            ],
+            "items": [
+              {
+                "slug": "solar-installation",
+                "title": "Solar Installation",
+                "price": "",
+                "icon": "HardHat",
+                "homeIcon": "HardHat",
+                "text": "Professional and safe installation of high-performance solar systems.",
+                "lines": [
+                  "Professional and safe installation",
+                  "of high-performance solar systems."
+                ],
+                "homeText": [
+                  "Professional and safe",
+                  "installation of high-performance",
+                  "solar systems."
+                ],
+                "image": "/images/installer.webp",
+                "homeImage": "/images/installer.png",
+                "treatmentImageAlt": "Solar Installation",
+                "detailImage": "/images/installer.png",
+                "relatedText": [
+                  "Professional and safe installation",
+                  "of high-performance solar systems."
+                ],
+                "overview": [
+                  "Professional and safe installation of high-performance solar systems.",
+                  "From installation to maintenance, we deliver end-to-end solar services for homes, businesses, and industries."
+                ]
+              },
+              {
+                "slug": "residential-solar",
+                "title": "Residential Solar",
+                "price": "",
+                "icon": "House",
+                "homeIcon": "House",
+                "text": "Clean, cost-effective, and reliable solar solutions for your home.",
+                "lines": [
+                  "Clean, cost-effective, and",
+                  "reliable solar solutions for your home."
+                ],
+                "homeText": [
+                  "Clean, cost-effective,",
+                  "and reliable solar",
+                  "solutions for your home."
+                ],
+                "image": "/images/solar-factory.webp",
+                "homeImage": "/images/solar-factory.png",
+                "treatmentImageAlt": "Residential Solar",
+                "thumb": "/images/solar-factory.png",
+                "relatedText": [
+                  "Clean, cost-effective, and",
+                  "reliable solar solutions for your home."
+                ],
+                "overview": [
+                  "Clean, cost-effective, and reliable solar solutions for your home.",
+                  "From installation to maintenance, we deliver end-to-end solar services for homes, businesses, and industries."
+                ]
+              },
+              {
+                "slug": "commercial-industrial-solar",
+                "title": "Commercial & Industrial Solar",
+                "price": "",
+                "icon": "Factory",
+                "homeIcon": "Factory",
+                "text": "Scalable solar systems to reduce energy costs and carbon footprint.",
+                "lines": [
+                  "Scalable solar systems",
+                  "to reduce energy costs",
+                  "and carbon footprint."
+                ],
+                "homeText": [
+                  "Scalable solar systems",
+                  "to reduce energy costs",
+                  "and carbon footprint."
+                ],
+                "image": "/images/worker.webp",
+                "homeImage": "/images/worker.png",
+                "homeImageAlt": "Commercial & Industrial Solar",
+                "thumb": "/images/worker.png",
+                "relatedText": [
+                  "Scalable solar systems to reduce",
+                  "energy costs and carbon footprint."
+                ],
+                "overview": [
+                  "Scalable solar systems to reduce energy costs and carbon footprint.",
+                  "From installation to maintenance, we deliver end-to-end solar services for homes, businesses, and industries."
+                ]
+              },
+              {
+                "slug": "battery-storage-solutions",
+                "title": "Battery Storage Solutions",
+                "price": "",
+                "icon": "BatteryCharging",
+                "homeIcon": "BatteryCharging",
+                "text": "Store excess solar energy and enjoy reliable power whenever needed.",
+                "lines": [
+                  "Store excess solar energy",
+                  "and enjoy reliable power",
+                  "whenever needed."
+                ],
+                "homeText": [
+                  "Store excess solar energy",
+                  "and enjoy reliable power",
+                  "whenever needed."
+                ],
+                "image": "/images/about-solar-house.webp",
+                "homeImage": "/images/about-solar-house.png",
+                "homeImageAlt": "Battery Storage Solutions",
+                "thumb": "/images/about-solar-house.png",
+                "relatedText": [
+                  "Store excess solar energy",
+                  "and enjoy reliable power whenever needed."
+                ],
+                "overview": [
+                  "Store excess solar energy and enjoy reliable power whenever needed.",
+                  "From installation to maintenance, we deliver end-to-end solar services for homes, businesses, and industries."
+                ]
+              },
+              {
+                "slug": "operation-maintenance",
+                "title": "Operation & Maintenance",
+                "price": "",
+                "icon": "Wrench",
+                "homeIcon": "Wrench",
+                "text": "Keep your solar systems performing efficiently with expert maintenance.",
+                "lines": [
+                  "Keep your solar systems",
+                  "performing efficiently with",
+                  "expert maintenance."
+                ],
+                "homeText": [
+                  "Keep your solar systems",
+                  "performing efficiently with",
+                  "expert maintenance."
+                ],
+                "image": "/images/solar-field.png",
+                "homeImage": "/images/solar-field.png",
+                "homeImageAlt": "Operation & Maintenance",
+                "thumb": "/images/solar-field.png",
+                "relatedText": [
+                  "Keep your solar systems performing",
+                  "efficiently with expert maintenance."
+                ],
+                "overview": [
+                  "Keep your solar systems performing efficiently with expert maintenance.",
+                  "From installation to maintenance, we deliver end-to-end solar services for homes, businesses, and industries."
+                ]
+              },
+              {
+                "slug": "solar-energy-consultation",
+                "title": "Solar Energy Consultation",
+                "price": "",
+                "icon": "Sun",
+                "homeIcon": "Sun",
+                "text": "Get expert guidance to choose the right solar solution for your needs.",
+                "lines": [
+                  "Get expert guidance to",
+                  "choose the right solar solution",
+                  "for your needs."
+                ],
+                "homeText": [
+                  "Get expert guidance",
+                  "to choose the right solar",
+                  "solution for your needs."
+                ],
+                "image": "/images/about-solar-main.png",
+                "homeImage": "/images/about-solar-main.png",
+                "homeImageAlt": "Solar Energy Consultation",
+                "relatedText": [
+                  "Get expert guidance to choose",
+                  "the right solar solution for your needs."
+                ],
+                "overview": [
+                  "Get expert guidance to choose the right solar solution for your needs.",
+                  "From installation to maintenance, we deliver end-to-end solar services for homes, businesses, and industries."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "PlanDetail": {
+        "variants": {
+          "InsurancePlanDetail1": {
+            "bannerTitle": "Service Details",
+            "overviewEyebrow": "Understanding Your Options",
+            "overviewTitle": "Every Journey Is Different",
+            "featuresEyebrow": "Our Treatment Options",
+            "featuresTitle": "Learn About",
+            "featuresSuffix": "Fertility Treatments",
+            "overviewText": "Fertility care begins with understanding your individual needs. Our goal is to help you explore available treatments, understand the process, and make informed decisions together with your clinical team.",
+            "introCards": [
+              {
+                "icon": "heart",
+                "title": "Compassion",
+                "text": "Support that respects your feelings and circumstances."
+              },
+              {
+                "icon": "microscope",
+                "title": "Clinical Guidance",
+                "text": "Understand investigations and treatment options."
+              },
+              {
+                "icon": "shield-check",
+                "title": "Informed Choices",
+                "text": "Discuss benefits, limitations, risks, and costs."
+              }
+            ],
+            "treatmentSectionTitle": "Find the Care That Fits You",
+            "treatmentSectionText": "Learn about two commonly used fertility treatments and discuss their suitability with your fertility specialist.",
+            "treatments": [
+              {
+                "slug": "ivf-treatment",
+                "number": "01",
+                "eyebrow": "Advanced Fertility Care",
+                "subtitle": "A carefully guided journey toward parenthood.",
+                "description": "In vitro fertilization (IVF) is a fertility treatment in which eggs and sperm are combined in a laboratory. An embryo may then be transferred into the uterus by a qualified fertility specialist.",
+                "image": "/images/home/why-choose.webp",
+                "imageAlt": "A patient discussing ultrasound results with a healthcare professional",
+                "features": [
+                  "Individualized treatment planning",
+                  "Specialist-led monitoring",
+                  "Laboratory-based fertilization",
+                  "Guidance throughout the process"
+                ],
+                "process": [
+                  {
+                    "title": "Initial consultation",
+                    "description": "Your specialist reviews your medical history and discusses suitable investigations."
+                  },
+                  {
+                    "title": "Treatment planning",
+                    "description": "A personalized plan is developed according to your circumstances and clinical findings."
+                  },
+                  {
+                    "title": "Fertilization",
+                    "description": "Eggs and sperm are brought together in a laboratory, with fertilization monitored by the clinical team."
+                  },
+                  {
+                    "title": "Embryo transfer",
+                    "description": "When appropriate, an embryo may be transferred into the uterus, followed by clinical guidance and testing."
+                  }
+                ]
+              },
+              {
+                "slug": "iui-treatment",
+                "number": "02",
+                "eyebrow": "Personalized Fertility Care",
+                "subtitle": "A less invasive option for selected fertility needs.",
+                "description": "Intrauterine insemination (IUI) involves placing prepared sperm directly into the uterus around the time of ovulation. A fertility specialist can help determine whether this approach is suitable for you.",
+                "image": "/images/about/our-mission.webp",
+                "imageAlt": "Fertility laboratory equipment used in reproductive care",
+                "features": [
+                  "Treatment suitability assessment",
+                  "Ovulation timing and monitoring",
+                  "Prepared sperm placed in the uterus",
+                  "Follow-up guidance from your specialist"
+                ],
+                "process": [
+                  {
+                    "title": "Consultation",
+                    "description": "Your specialist reviews your health history and discusses fertility investigations."
+                  },
+                  {
+                    "title": "Ovulation monitoring",
+                    "description": "The clinical team identifies the appropriate timing for the procedure."
+                  },
+                  {
+                    "title": "Sperm preparation",
+                    "description": "A laboratory prepares a sperm sample for the insemination procedure."
+                  },
+                  {
+                    "title": "Insemination and follow-up",
+                    "description": "Prepared sperm is placed in the uterus, followed by instructions about testing and follow-up."
+                  }
+                ]
+              }
+            ],
+            "processSectionEyebrow": "What to Expect",
+            "processSectionTitle": "Your Treatment Journey",
+            "processSectionText": "Each treatment follows its own clinical process. Your specialist will explain the steps and timing that apply to your plan.",
+            "treatmentPrefix": "Treatment",
+            "contactHref": "#contact",
+            "supportTitle": "Take the Next Step With Confidence",
+            "supportButton": {
+              "label": "Book an Appointment",
+              "href": "/book-appointment"
+            },
+            "features": [
+              {
+                "icon": "check-circle",
+                "title": "Individualized treatment planning",
+                "text": [
+                  "Individualized treatment",
+                  "planning"
+                ]
+              },
+              {
+                "icon": "check-circle",
+                "title": "Specialist-led monitoring",
+                "text": [
+                  "Specialist-led",
+                  "monitoring"
+                ]
+              },
+              {
+                "icon": "check-circle",
+                "title": "Laboratory-based fertilization",
+                "text": [
+                  "Laboratory-based",
+                  "fertilization"
+                ]
+              },
+              {
+                "icon": "check-circle",
+                "title": "Guidance throughout the process",
+                "text": [
+                  "Guidance throughout",
+                  "the process"
+                ]
+              }
+            ],
+            "whyEyebrow": "What to Expect",
+            "whyTitle": "Your Treatment",
+            "whySuffix": "Journey",
+            "why": [
+              {
+                "icon": "stethoscope",
+                "title": "Consultation",
+                "text": "Your specialist reviews your health history and discusses fertility investigations."
+              },
+              {
+                "icon": "clock",
+                "title": "Ovulation monitoring",
+                "text": "The clinical team identifies the appropriate timing for the procedure."
+              },
+              {
+                "icon": "microscope",
+                "title": "Sperm preparation",
+                "text": "A laboratory prepares a sperm sample for the insemination procedure."
+              },
+              {
+                "icon": "check-circle",
+                "title": "Insemination and follow-up",
+                "text": "Prepared sperm is placed in the uterus, followed by instructions about testing and follow-up."
+              }
+            ],
+            "formTitle": "Discuss This Treatment",
+            "formText": "Have questions about IVF or IUI? Arrange a consultation to discuss your needs, options, potential risks, and next steps.",
+            "relatedTitle": "Our Treatment Options"
+          }
+        }
+      },
+      "Process": {
+        "variants": {
+          "InsuranceProcess1": {
+            "eyebrow": "What to Expect",
+            "title": "Your Treatment",
+            "highlight": "Journey",
+            "text": "Each treatment follows its own clinical process. Your specialist will explain the steps and timing that apply to your plan.",
+            "button": {
+              "label": "Book an Appointment",
+              "href": "/book-appointment"
+            },
+            "steps": [
+              {
+                "icon": "stethoscope",
+                "title": "Initial consultation",
+                "text": [
+                  "Your specialist reviews",
+                  "your medical history and",
+                  "discusses suitable",
+                  "investigations."
+                ]
+              },
+              {
+                "icon": "calendar-check",
+                "title": "Treatment planning",
+                "text": [
+                  "A personalized plan is",
+                  "developed according to your",
+                  "circumstances and clinical findings."
+                ]
+              },
+              {
+                "icon": "microscope",
+                "title": "Fertilization",
+                "text": [
+                  "Eggs and sperm are brought",
+                  "together in a laboratory, with",
+                  "fertilization monitored by the",
+                  "clinical team."
+                ]
+              },
+              {
+                "icon": "baby",
+                "title": "Embryo transfer",
+                "text": [
+                  "When appropriate, an embryo",
+                  "may be transferred into the",
+                  "uterus, followed by clinical",
+                  "guidance and testing."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Stats": {
+        "variants": {
+          "InsuranceStats1": {
+            "backgroundImage": "/images/financial-advisor.webp",
+            "backgroundAlt": "Financial analyst reviewing investment market performance",
+            "items": [
+              {
+                "icon": "award",
+                "value": "10+",
+                "label": "YEARS OF EXPERIENCE"
+              },
+              {
+                "icon": "circle-check",
+                "value": "4",
+                "label": "FINANCIAL SERVICES"
+              },
+              {
+                "icon": "landmark",
+                "value": "6",
+                "label": "BANKING PARTNERS"
+              },
+              {
+                "icon": "users",
+                "value": "3",
+                "label": "TEAM MEMBERS"
+              }
+            ]
+          }
+        }
+      },
+      "Testimonials": {
+        "variants": {
+          "InsuranceTestimonials1": {
+            "heroTitle": "Testimonials",
+            "ariaLabel": "Client testimonials",
+            "eyebrow": "TESTIMONIALS",
+            "title": "What Our Clients",
+            "highlight": "Say",
+            "storyLabel": "A personal story",
+            "ratingLabel": "Five-star client rating",
+            "previousLabel": "Previous testimonial",
+            "nextLabel": "Next testimonial",
+            "showLabelTemplate": "Show testimonial {number}",
+            "text": "Trusted by homes and businesses for reliable solar solutions.",
+            "images": {
+              "herbs": "/images/testimonial-herbs.webp",
+              "food": "/images/testimonial-food.webp",
+              "pasta": "/images/testimonial-pasta.webp"
+            },
+            "items": [
+              {
+                "name": "Rohit Sharma",
+                "city": "",
+                "treatment": "Homeowner",
+                "rating": 5,
+                "image": "/images/rohit-sharma.webp",
+                "imageAlt": "Rohit Sharma",
+                "quote": "The solar installation was smooth and hassle-free. The team was professional and delivered exactly what they promised. Our energy bills have reduced significantly."
+              },
+              {
+                "name": "Priya Mehta",
+                "city": "",
+                "treatment": "Business Owner",
+                "rating": 5,
+                "image": "/images/priya-mehta.webp",
+                "imageAlt": "Priya Mehta",
+                "quote": "A reliable and efficient solar solution for our commercial property. The system performance is excellent, and the support team is always responsive."
+              },
+              {
+                "name": "Amit Verma",
+                "city": "",
+                "treatment": "Residential Customer",
+                "rating": 5,
+                "image": "/images/rohit-sharma.webp",
+                "imageAlt": "Amit Verma",
+                "quote": "Excellent solar installation experience. The entire process was transparent, professional, and completed on time. Highly recommended for anyone switching to solar."
+              }
+            ]
+          }
+        }
+      },
+      "Cta": {
+        "variants": {
+          "InsuranceCta1": {
+            "eyebrow": "Contact Us",
+            "title": [
+              "Get in Touch With Us",
+              "for Solar Solutions"
+            ],
+            "text": "Have a question or need a custom solar solution? Our team is here to help you.",
+            "image": "/images/hero-bg.png",
+            "button": {
+              "label": "Contact Us",
+              "href": "#contact"
+            }
+          }
+        }
+      },
+      "Blog": {
+        "variants": {
+          "InsuranceBlog1": {
+            "heroTitle": "Blog",
+            "readLabel": "Read Article",
+            "readAriaLabelTemplate": "Read {title}",
+            "eyebrow": "Fertility Insights",
+            "title": "Latest updates and",
+            "highlight": "expert fertility insights",
+            "text": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+            "buttonLabel": "Explore All Articles",
+            "homeCount": 3,
+            "categoryLabel": "Showing posts in",
+            "allPostsLabel": "View all posts",
+            "posts": [
+              {
+                "slug": "lifestyle-choices-and-conception",
+                "category": "Fertility Insights",
+                "date": "Oct 16, 2026",
+                "title": "How lifestyle choices can improve your chances of conception",
+                "titleLines": [
+                  "How lifestyle choices can improve",
+                  "your chances of conception"
+                ],
+                "text": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+                "image": "/images/home/success-story1.webp",
+                "imageAlt": "Mother holding her baby in a bright, peaceful setting",
+                "detail": {
+                  "image": "/images/home/success-story1.webp",
+                  "imageAlt": "A mother holding her baby, representing family and reproductive health",
+                  "comments": 3,
+                  "intro": "Fertility is a personal aspect of health, and every individual or couple may have different questions, circumstances, and goals. Understanding your options can help you have informed conversations with a qualified healthcare professional.",
+                  "sections": [
+                    {
+                      "title": "Lifestyle and",
+                      "highlight": "reproductive health",
+                      "text": "General health habits can support overall well-being. Eating a varied, balanced diet, getting adequate rest, avoiding tobacco, and discussing medications or supplements with a clinician can all be useful topics to consider."
+                    },
+                    {
+                      "title": "Understanding",
+                      "highlight": "treatment options",
+                      "text": "Depending on your circumstances, a specialist may discuss diagnostic testing, medication, intrauterine insemination (IUI), in vitro fertilization (IVF), or other approaches. Not every option is appropriate for every person."
+                    },
+                    {
+                      "title": "Questions to ask",
+                      "highlight": "your specialist",
+                      "text": "Preparing questions before an appointment can help you understand the available choices and feel more comfortable participating in decisions about your care."
+                    }
+                  ],
+                  "tip": {
+                    "title": "A Guide to Getting Started",
+                    "text": "The right next step begins with reliable information and care tailored to your needs."
+                  }
+                }
+              },
+              {
+                "slug": "ivf-treatment-journey",
+                "category": "IVF Guides",
+                "date": "Oct 16, 2026",
+                "title": "What to expect during your IVF treatment journey",
+                "titleLines": [
+                  "What to expect during your",
+                  "IVF treatment journey"
+                ],
+                "text": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+                "image": "/images/home/success-story2.webp",
+                "imageAlt": "Patient looking at an ultrasound image with medical guidance",
+                "detail": {
+                  "image": "/images/blog-2.webp",
+                  "imageAlt": "Doctor talking with a patient at a desk",
+                  "comments": 5,
+                  "intro": "A medical emergency rarely gives notice, and the cost of treatment can strain even careful savings. Health insurance lets you focus on recovery rather than on how the bills will be paid.",
+                  "sections": [
+                    {
+                      "title": "1. Manage Rising",
+                      "highlight": "Medical Costs",
+                      "text": "Hospital stays, surgeries, and diagnostic tests become more expensive every year. A health plan covers a large share of these costs so that one illness does not undo years of saving."
+                    },
+                    {
+                      "title": "2. Get Care",
+                      "highlight": "Without Delay",
+                      "text": "Many plans offer cashless treatment at network hospitals, which means you can be admitted and treated without arranging a large payment first. Check the hospital list near your home before you buy."
+                    },
+                    {
+                      "title": "3. Cover the",
+                      "highlight": "Whole Family",
+                      "text": "A family floater plan protects your spouse, children, and sometimes parents under a single sum insured. Review the waiting periods and exclusions so you know exactly what is covered and from when."
+                    }
+                  ],
+                  "tip": {
+                    "title": "Tip: Read the Waiting Periods",
+                    "text": "Most policies apply a waiting period to pre-existing conditions and certain treatments. Knowing these before you buy helps you avoid surprises at claim time."
+                  }
+                }
+              },
+              {
+                "slug": "pcos-and-fertility",
+                "category": "Women's Health",
+                "date": "Oct 16, 2026",
+                "title": "Understanding PCOS and its impact on fertility",
+                "titleLines": [
+                  "Understanding PCOS and",
+                  "its impact on fertility"
+                ],
+                "text": "Understanding PCOS and its impact on fertility",
+                "image": "/images/home/success-story3.webp",
+                "imageAlt": "Doctor discussing women's health with a patient",
+                "detail": {
+                  "image": "/images/blog-3.webp",
+                  "imageAlt": "Travellers watching a plane from an airport terminal",
+                  "comments": 2,
+                  "intro": "A trip takes weeks of planning, but a missed flight, a lost bag, or a sudden illness abroad can change it in minutes. Travel insurance is a small addition to your budget that keeps those setbacks from becoming expensive problems.",
+                  "sections": [
+                    {
+                      "title": "1. Medical Help",
+                      "highlight": "Away from Home",
+                      "text": "Treatment in another country can be costly and hard to arrange. Travel cover pays for emergency medical care and, where needed, evacuation, so you are not left negotiating bills in an unfamiliar place."
+                    },
+                    {
+                      "title": "2. Delays and",
+                      "highlight": "Cancellations",
+                      "text": "If your trip is cancelled or cut short for a covered reason, the policy can reimburse non-refundable bookings. Many plans also compensate for long flight delays and missed connections."
+                    },
+                    {
+                      "title": "3. Lost Baggage and",
+                      "highlight": "Documents",
+                      "text": "Losing your luggage or passport is stressful enough without the cost of replacing them. Cover for baggage and travel documents helps you get essentials quickly and continue your journey."
+                    }
+                  ],
+                  "tip": {
+                    "title": "Tip: Buy When You Book",
+                    "text": "Purchasing cover at the time you book your trip means cancellation benefits apply from day one, not just from the day you depart."
+                  }
+                }
+              },
+              {
+                "slug": "home-insurance-protect-what-matters-most",
+                "category": "Home Insurance",
+                "date": "2026-08-08",
+                "title": "Home Insurance: Protect What Matters Most",
+                "titleLines": [
+                  "Home Insurance: Protect",
+                  "What Matters Most"
+                ],
+                "text": "See how home insurance shields your house and belongings from fire, theft, and natural calamities.",
+                "image": "/images/blog-4.webp",
+                "detail": {
+                  "image": "/images/blog-4.webp",
+                  "imageAlt": "Modern family home at dusk",
+                  "comments": 4,
+                  "intro": "Your home is likely the most valuable thing you own, and everything inside it took years to build up. Home insurance protects both the structure and your belongings against events you cannot control.",
+                  "sections": [
+                    {
+                      "title": "1. Cover the",
+                      "highlight": "Structure",
+                      "text": "Fire, storms, floods, and other calamities can cause damage that is expensive to repair. Structure cover pays towards rebuilding or restoring your home so you are not starting again from nothing."
+                    },
+                    {
+                      "title": "2. Protect Your",
+                      "highlight": "Belongings",
+                      "text": "Furniture, appliances, electronics, and valuables can be insured against theft and damage. Keep a simple list of what you own and its approximate value to make any claim faster."
+                    },
+                    {
+                      "title": "3. Choose the Right",
+                      "highlight": "Sum Insured",
+                      "text": "Insure the structure for what it would cost to rebuild, not its market price, and review the amount whenever you renovate. Being under-insured can reduce what you receive at claim time."
+                    }
+                  ],
+                  "tip": {
+                    "title": "Tip: Renters Need Cover Too",
+                    "text": "If you rent, you can still insure your belongings. Contents-only cover is usually inexpensive and protects everything you have brought into the home."
+                  }
+                }
+              },
+              {
+                "slug": "motor-insurance-drive-with-complete-confidence",
+                "category": "Motor Insurance",
+                "date": "2026-08-05",
+                "title": "Motor Insurance: Drive with Complete Confidence",
+                "titleLines": [
+                  "Motor Insurance: Drive",
+                  "with Complete Confidence"
+                ],
+                "text": "Understand third-party and comprehensive cover, and how the right add-ons keep you protected on every journey.",
+                "image": "/images/blog-5.webp",
+                "detail": {
+                  "image": "/images/blog-5.webp",
+                  "imageAlt": "Car driving along a winding road at sunset",
+                  "comments": 6,
+                  "intro": "Every drive carries some risk, however careful you are. Motor insurance protects you from the cost of accidents, theft, and damage, and keeps you on the right side of the law.",
+                  "sections": [
+                    {
+                      "title": "1. Third-Party or",
+                      "highlight": "Comprehensive",
+                      "text": "Third-party cover pays for injury or damage you cause to others and is the legal minimum in many places. Comprehensive cover adds protection for your own vehicle against accidents, theft, fire, and natural events."
+                    },
+                    {
+                      "title": "2. Add-Ons That",
+                      "highlight": "Matter",
+                      "text": "Zero depreciation, roadside assistance, and engine protection can make a real difference when you claim. Choose add-ons based on your car’s age, where you drive, and how much you would want to pay out of pocket."
+                    },
+                    {
+                      "title": "3. Keep Your",
+                      "highlight": "No-Claim Bonus",
+                      "text": "Each claim-free year usually earns a discount on your next premium. Renew on time and think twice before claiming for very small repairs, so the bonus keeps building."
+                    }
+                  ],
+                  "tip": {
+                    "title": "Tip: Renew Before Expiry",
+                    "text": "A lapsed policy can mean losing your no-claim bonus and driving uninsured. Set a reminder a few weeks before your renewal date."
+                  }
+                }
+              },
+              {
+                "slug": "business-insurance-safeguard-what-you-have-built",
+                "category": "Business Insurance",
+                "date": "2026-08-02",
+                "title": "Business Insurance: Safeguard What You’ve Built",
+                "titleLines": [
+                  "Business Insurance: Safeguard",
+                  "What You’ve Built"
+                ],
+                "text": "Learn how the right cover protects your assets, your people, and your income when something goes wrong.",
+                "image": "/images/blog-6.webp",
+                "detail": {
+                  "image": "/images/blog-6.webp",
+                  "imageAlt": "Business owner meeting with an insurance advisor",
+                  "comments": 7,
+                  "intro": "A business takes years to build and can be set back by a single unexpected event. Business insurance helps you absorb the shock and keep trading while you recover.",
+                  "sections": [
+                    {
+                      "title": "1. Protect Your",
+                      "highlight": "Assets",
+                      "text": "Premises, equipment, and stock are the foundation of your operations. Property cover helps you repair or replace them after fire, theft, or damage so work can resume sooner."
+                    },
+                    {
+                      "title": "2. Cover Your",
+                      "highlight": "Liabilities",
+                      "text": "A customer injury, a faulty product, or a professional error can lead to claims against you. Liability cover pays for legal costs and compensation that could otherwise threaten the business."
+                    },
+                    {
+                      "title": "3. Keep Income",
+                      "highlight": "Flowing",
+                      "text": "If you have to close temporarily, business interruption cover can replace lost income and help with fixed costs such as rent and salaries until you are back on your feet."
+                    }
+                  ],
+                  "tip": {
+                    "title": "Tip: Review Cover as You Grow",
+                    "text": "New staff, new premises, or new services all change your risks. Revisit your policy every year so your cover grows with the business."
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "BlogDetail": {
+        "variants": {
+          "InsuranceBlogDetail1": {
+            "bannerTitle": "Blog Details",
+            "author": "By Admin",
+            "commentsLabel": "Comments",
+            "latestTitle": "Latest updates",
+            "categoriesTitle": "Fertility Insights"
+          }
+        }
+      },
+      "EnquiryForm": {
+        "variants": {
+          "InsuranceEnquiryForm1": {
+            "name": "First Name *",
+            "email": "Email Address *",
+            "phone": "Phone Number *",
+            "plan": "Consultation Type *",
+            "planShort": "Select a consultation",
+            "message": "Additional Notes (Optional)",
+            "submit": "Request Appointment",
+            "note": "Your information should be handled securely and confidentially by the connected booking system."
+          }
+        }
+      },
+      "EnquirePage": {
+        "variants": {
+          "InsuranceEnquirePage1": {
+            "eyebrow": "Schedule a Visit",
+            "title": [
+              "Book Your",
+              "Appointment"
+            ],
+            "highlight": "With Care.",
+            "text": "Every journey is personal. Take the first step toward understanding your fertility and reproductive health with compassionate, professional guidance.",
+            "points": [
+              {
+                "icon": "heart",
+                "title": "Personal Care",
+                "text": [
+                  "Guidance tailored to your needs."
+                ]
+              },
+              {
+                "icon": "shield-check",
+                "title": "Trusted Support",
+                "text": [
+                  "Professional, respectful care."
+                ]
+              },
+              {
+                "icon": "calendar",
+                "title": "Schedule a Visit",
+                "text": [
+                  "Complete the form to request your visit."
+                ]
+              }
+            ],
+            "formTitle": "Let's Get",
+            "formHighlight": "Started",
+            "formText": "Complete the form to request your visit."
+          }
+        }
+      },
+      "ContactPage": {
+        "variants": {
+          "InsuranceContactPage1": {
+            "eyebrow": "Contact Us",
+            "title": [
+              "Let's Start the",
+              "Conversation"
+            ],
+            "highlight": "Conversation",
+            "text": "Have a question or need a custom solar solution? Our team is here to help you.",
+            "cards": [
+              {
+                "icon": "Phone",
+                "symbol": "☎",
+                "title": "Call Us",
+                "href": "",
+                "field": "phones"
+              },
+              {
+                "icon": "Mail",
+                "symbol": "✉",
+                "title": "Email Us",
+                "href": "mailto:info@XYZ.com",
+                "field": "emails"
+              },
+              {
+                "icon": "MapPin",
+                "symbol": "◎",
+                "title": "Our Location",
+                "href": "",
+                "field": "address"
+              }
+            ],
+            "formTitle": "Let's Start the",
+            "formHighlight": "Conversation",
+            "formText": "Have a question or need a custom solar solution? Our team is here to help you.",
+            "location": {
+              "mapCard": {
+                "title": "Our Location",
+                "field": "address"
+              }
+            },
+            "hero": {
+              "breadcrumbLabel": "Breadcrumb",
+              "image": {
+                "src": "/images/hero-bg.png",
+                "alt": "Solar energy solutions"
+              },
+              "heading": "Contact Us",
+              "homeLabel": "Home",
+              "homeHref": "/",
+              "currentLabel": "Contact Us"
+            },
+            "form": {
+              "heading": "Contact Us",
+              "mobileEyebrow": "Contact Us",
+              "requiredMarker": "*",
+              "emailLabel": "Email Us",
+              "emailValue": "info@XYZ.com",
+              "phoneLabel": "Call Us",
+              "phoneValue": "",
+              "backgroundImage": "/images/hero-bg.png",
+              "backgroundImageAlt": "",
+              "fields": {
+                "firstName": {
+                  "label": "First Name *",
+                  "placeholder": "First Name *",
+                  "symbol": "User"
+                },
+                "lastName": {
+                  "label": "Last Name *",
+                  "placeholder": "Last Name *"
+                },
+                "email": {
+                  "label": "Email Address *",
+                  "placeholder": "Email Address *",
+                  "symbol": "Mail"
+                },
+                "phone": {
+                  "label": "Phone Number *",
+                  "placeholder": "Phone Number *",
+                  "countryButtonLabel": "Choose country calling code",
+                  "symbol": "Phone"
+                },
+                "message": {
+                  "label": "Your Message...",
+                  "placeholder": "Your Message...",
+                  "symbol": "Mail"
+                }
+              },
+              "countries": [
+                {
+                  "code": "+91",
+                  "name": "India"
+                },
+                {
+                  "code": "+1",
+                  "name": "United States"
+                },
+                {
+                  "code": "+44",
+                  "name": "United Kingdom"
+                },
+                {
+                  "code": "+61",
+                  "name": "Australia"
+                },
+                {
+                  "code": "+971",
+                  "name": "UAE"
+                }
+              ],
+              "submitLabel": "Get Free Consultation",
+              "successTitle": "Thank you!",
+              "successText": [
+                "Your form passed the client-side submission step.",
+                "Connect an email service or backend API to deliver your message to your team."
+              ],
+              "successButton": "Send Another Message"
+            }
+          }
+        }
+      },
+      "ThankYouPage": {
+        "variants": {
+          "InsuranceThankYouPage1": {
+            "pageTitle": "Thank You",
+            "title": "Thank",
+            "highlight": "You!",
+            "subtitle": "Thank you!",
+            "text": [
+              "Your form passed the client-side submission step.",
+              "Connect an email service or backend API to deliver your message to your team."
+            ],
+            "primaryButton": {
+              "label": "Send Another Message",
+              "href": "#contact"
+            },
+            "secondaryButton": {
+              "label": "Book Another Appointment",
+              "href": "/book-appointment"
+            },
+            "points": [
+              {
+                "icon": "heart",
+                "title": "Personal Care",
+                "text": [
+                  "Guidance tailored to your needs."
+                ]
+              },
+              {
+                "icon": "shield-check",
+                "title": "Trusted Support",
+                "text": [
+                  "Professional, respectful care."
+                ]
+              },
+              {
+                "icon": "monitor-check",
+                "title": "Advanced Technology",
+                "text": [
+                  "For better care."
+                ]
+              },
+              {
+                "icon": "users-round",
+                "title": "Personalized Approach",
+                "text": [
+                  "Because you are unique."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "FaqPage": {
+        "variants": {
+          "InsuranceFaqPage1": {
+            "title": "Frequently Asked Questions",
+            "intro": "Find quick answers to common questions about our IT services, process, and support.",
+            "items": [
+              {
+                "question": "What IT services does ORVEXIS provide?",
+                "answer": "We offer a wide range of IT services including custom software development, cloud solutions, cybersecurity, IT consulting, and ongoing support & maintenance."
+              },
+              {
+                "question": "How do you ensure the security of our data?",
+                "answer": "We follow industry-standard security practices, including data encryption, secure authentication, regular security audits, access controls, and continuous monitoring to help protect your business information."
+              },
+              {
+                "question": "Can you develop a custom solution for our business?",
+                "answer": "Absolutely! We develop tailored software solutions based on your business goals, workflows, and requirements. Our team works closely with you throughout the development process."
+              },
+              {
+                "question": "What industries do you work with?",
+                "answer": "We work with businesses across multiple industries, including healthcare, education, finance, retail, real estate, manufacturing, and technology."
+              }
+            ]
+          }
+        }
+      },
+      "PolicyPages": {
+        "variants": {
+          "InsurancePolicyPages1": {
+            "contactPrompt": "Questions? Contact us at",
+            "privacy": {
+              "intro": "Your trust matters to us. This policy explains how Surevia handles information you choose to share when you visit our website or contact our team.",
+              "sections": [
+                {
+                  "title": "Information you share",
+                  "text": "When you submit an enquiry or contact us, we may receive details such as your name, phone number, email address, and the insurance information you include in your message. Please avoid sending sensitive personal or financial information through general website forms."
+                },
+                {
+                  "title": "How we use information",
+                  "text": "We use enquiry details to respond to you, understand the cover you are asking about, and provide relevant guidance. If you ask us to help you explore a plan, we may use the details you provide to coordinate that request with the relevant insurance provider."
+                },
+                {
+                  "title": "Sharing and protection",
+                  "text": "We do not offer personal information for sale. Information may be shared with a relevant insurer or service provider when needed to respond to a request you make, or where disclosure is required by law. We take reasonable care in handling enquiry information, but no method of transmission or storage can be guaranteed completely secure."
+                },
+                {
+                  "title": "Your choices",
+                  "text": "You can choose not to provide information, though we may then be unable to respond to an enquiry. To ask about information you have sent us or request an update, email {email}."
+                },
+                {
+                  "title": "Insurance information",
+                  "text": "Website content is general information, not a substitute for an insurer’s policy wording or a personalized financial recommendation. The insurer’s documents and terms govern any cover you purchase."
+                }
+              ]
+            },
+            "terms": {
+              "intro": "These terms apply when you access the Surevia website. By using the site, you agree to use it lawfully and in a way that does not interfere with other visitors.",
+              "sections": [
+                {
+                  "title": "Website information",
+                  "text": "We aim to keep website information useful and current, but plan descriptions and other content are provided for general information and may change. They are not an offer of insurance, a guarantee of eligibility, or personal financial advice."
+                },
+                {
+                  "title": "Insurance applications and cover",
+                  "text": "Insurance products are subject to the insurer’s eligibility rules, underwriting, policy wording, exclusions, limits, and final approval. Always review the insurer’s official documents before applying or making a decision. A request sent through this website does not itself create insurance cover."
+                },
+                {
+                  "title": "Acceptable use",
+                  "text": "You must not misuse this website, attempt to gain unauthorized access, disrupt its operation, or submit information that is unlawful or belongs to another person without permission."
+                },
+                {
+                  "title": "Content and external websites",
+                  "text": "Website text, branding, and materials belong to Surevia or their respective owners. Links to other websites are provided for convenience; we do not control and are not responsible for their content or practices."
+                },
+                {
+                  "title": "Changes and contact",
+                  "text": "We may update these terms or website content as our services change. Continued use of the site after an update means you accept the revised terms. For questions, contact {email}."
+                }
+              ]
+            },
+            "cookies": {
+              "intro": "Cookies are small files that a website can store in your browser. This page describes how cookies may support your visit to the Surevia website and how you can manage them.",
+              "sections": [
+                {
+                  "title": "Why cookies may be used",
+                  "text": "Cookies and similar browser storage can help a website work reliably, remember a preference, understand how pages are used, or support embedded services. The specific cookies in use can vary as the website and its features change."
+                },
+                {
+                  "title": "Managing cookies",
+                  "text": "Most browsers let you review, block, or delete cookies in their privacy or site settings. Blocking some cookies may affect how parts of a website work. Changes made in your browser apply to that browser and device."
+                },
+                {
+                  "title": "Third-party services",
+                  "text": "If pages include content or tools provided by another company, that provider may use its own cookies under its own policy. Review the provider’s information for details about its practices."
+                },
+                {
+                  "title": "Updates",
+                  "text": "We may revise this page when website features or cookie practices change. Questions about this policy can be sent to {email}."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "SitemapPage": {
+        "variants": {
+          "InsuranceSitemapPage1": {
+            "pagesTitle": "Pages",
+            "policiesTitle": "Policies"
+          }
+        }
+      },
+      "Footer": {
+        "variants": {
+          "InsuranceFooter1": {
+            "ariaLabel": "Website footer",
+            "policyAriaLabel": "Footer navigation",
+            "about": "Delivering innovative, secure and scalable IT solutions that drive business growth and digital transformation.",
+            "columns": [
+              {
+                "title": "Quick Links",
+                "source": "links",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "#home"
+                  },
+                  {
+                    "label": "About Us",
+                    "href": "#about-us"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "#services"
+                  },
+                  {
+                    "label": "Why Choose Us",
+                    "href": "/#why-choose-us"
+                  },
+                  {
+                    "label": "Contact Us",
+                    "href": "#contact"
+                  }
+                ]
+              },
+              {
+                "title": "Explore",
+                "source": "plans",
+                "links": [
+                  {
+                    "label": "Industries We Serve",
+                    "href": "#industries"
+                  },
+                  {
+                    "label": "Testimonials",
+                    "href": "#testimonials"
+                  },
+                  {
+                    "label": "FAQs",
+                    "href": "#faqs"
+                  },
+                  {
+                    "label": "Contact Us",
+                    "href": "#contact"
+                  },
+                  {
+                    "label": "Our Services",
+                    "href": "#services"
+                  }
+                ]
+              }
+            ],
+            "contactTitle": "Contact Info",
+            "contactDetails": [
+              {
+                "title": "Call Us",
+                "value": "+00000000",
+                "href": "tel:+919876543210",
+                "icon": "Phone",
+                "symbol": "☎"
+              },
+              {
+                "title": "Email Us",
+                "value": "info@XYZ.com",
+                "href": "mailto:info@XYZ.com",
+                "icon": "Mail",
+                "symbol": "✉"
+              },
+              {
+                "title": "Our Location",
+                "value": "742 Evergreen Terrace, 62704, United States",
+                "href": "https://maps.google.com/?q=742+Evergreen+Terrace,+62704,+United+States",
+                "icon": "MapPin",
+                "symbol": "⌖"
+              }
+            ],
+            "contact": [
+              {
+                "icon": "pin-solid",
+                "field": "address"
+              },
+              {
+                "icon": "phone-solid",
+                "field": "phone"
+              },
+              {
+                "icon": "mail-solid",
+                "field": "email"
+              },
+              {
+                "icon": "clock",
+                "field": "hoursShort"
+              }
+            ],
+            "copyright": "© 2026 ORVEXIS. All Rights Reserved.",
+            "tagline": "Delivering innovative, secure and scalable IT solutions that drive business growth and digital transformation."
+          }
+        }
+      },
+      "Homecare": {
+        "variants": {
+          "InsuranceHomecare1": {
+            "image": "/images/home/banner2.webp",
+            "imageAlt": "An elderly couple smiling together at home",
+            "title": [
+              "Dedicated to Providing the Best",
+              "In-Home Health Care."
+            ],
+            "tagline": "Care that feels like home"
+          }
+        }
+      },
+      "Team": {
+        "variants": {
+          "InsuranceTeam1": {
+            "heroTitle": "Our Team",
+            "eyebrow": "Our Team",
+            "title": "Meet Our Expert Team",
+            "members": [
+              {
+                "name": "Emily Carter",
+                "role": "Investment Advisor",
+                "description": "",
+                "image": "/images/team-1.webp",
+                "imageAlt": "Emily Carter - Investment Advisor",
+                "href": "#our-team",
+                "linkLabel": "Share Emily Carter's profile"
+              },
+              {
+                "name": "Michael Brooks",
+                "role": "Financial Consultant",
+                "description": "",
+                "image": "/images/team-2.webp",
+                "imageAlt": "Michael Brooks - Financial Consultant",
+                "href": "#our-team",
+                "linkLabel": "Share Michael Brooks's profile"
+              },
+              {
+                "name": "David Collins",
+                "role": "Risk & Compliance Manager",
+                "description": "",
+                "image": "/images/team-3.webp",
+                "imageAlt": "David Collins - Risk & Compliance Manager",
+                "href": "#our-team",
+                "linkLabel": "Share David Collins's profile"
+              }
+            ]
+          }
+        }
+      },
+      "Gallery": {
+        "variants": {
+          "InsuranceGallery1": {
+            "title": [
+              "Our Gallery"
+            ],
+            "heading": [
+              "A Glimpse of Our",
+              "Restaurant"
+            ],
+            "items": [
+              {
+                "src": "/images/gallery-restaurant.webp",
+                "alt": "Elegant Aurevia restaurant interior",
+                "className": "col-span-2 row-span-2",
+                "imageClass": "object-center",
+                "delay": 0
+              },
+              {
+                "src": "/images/gallery-food1.webp",
+                "alt": "Delicious grilled salmon with fresh vegetables",
+                "className": "col-span-1 row-span-1",
+                "imageClass": "object-center",
+                "delay": 0.12
+              },
+              {
+                "src": "/images/menu-fruit-bowl.webp",
+                "alt": "Freshly prepared penne pasta",
+                "className": "col-span-1 row-span-1",
+                "imageClass": "object-center",
+                "delay": 0.2
+              },
+              {
+                "src": "/images/menu-idli.webp",
+                "alt": "Chocolate lava cake with vanilla ice cream",
+                "className": "col-span-1 row-span-1",
+                "imageClass": "object-center",
+                "delay": 0.28
+              },
+              {
+                "src": "/images/menu-sandwich.webp",
+                "alt": "Beautifully arranged restaurant dining table",
+                "className": "col-span-1 row-span-1",
+                "imageClass": "object-center",
+                "delay": 0.36
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "homePage": {
+    "treatmentProcess": {
+      "eyebrow": "Our Treatment Process",
+      "title": "A Simple & Supportive",
+      "highlight": "IVF Journey",
+      "description": "A step-by-step, personalized process to guide you from consultation to a successful pregnancy.",
+      "previousStepLabel": "Previous treatment step",
+      "nextStepLabel": "Next treatment step",
+      "paginationLabel": "Go to treatment step",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Initial Consultation",
+          "description": "Meet our fertility expert to discuss your concerns, history and treatment options.",
+          "icon": "messageCircle"
+        },
+        {
+          "number": "02",
+          "title": "Fertility Assessment",
+          "description": "A detailed evaluation with required tests to understand your fertility health.",
+          "icon": "clipboardCheck"
+        },
+        {
+          "number": "03",
+          "title": "Personalized Treatment Plan",
+          "description": "A tailored IVF plan designed for your unique needs and best possible results.",
+          "icon": "calendarCheck"
+        },
+        {
+          "number": "04",
+          "title": "IVF Treatment",
+          "description": "Carefully monitored procedures including egg retrieval, fertilization and embryo development.",
+          "icon": "microscope"
+        },
+        {
+          "number": "05",
+          "title": "Pregnancy & Follow-Up",
+          "description": "Embryo transfer and ongoing care with pregnancy testing and continuous support throughout your journey.",
+          "icon": "baby"
+        }
+      ]
+    },
+    "faqSection": {
+      "eyebrow": "FAQs",
+      "title": "Frequently Asked",
+      "highlight": "Questions",
+      "description": "Find quick answers to common questions about our IT services, process, and support.",
+      "items": [
+        {
+          "question": "What IT services does ORVEXIS provide?",
+          "answer": "We offer a wide range of IT services including custom software development, cloud solutions, cybersecurity, IT consulting, and ongoing support & maintenance."
+        },
+        {
+          "question": "How do you ensure the security of our data?",
+          "answer": "We follow industry-standard security practices, including data encryption, secure authentication, regular security audits, access controls, and continuous monitoring to help protect your business information."
+        },
+        {
+          "question": "Can you develop a custom solution for our business?",
+          "answer": "Absolutely! We develop tailored software solutions based on your business goals, workflows, and requirements. Our team works closely with you throughout the development process."
+        },
+        {
+          "question": "What industries do you work with?",
+          "answer": "We work with businesses across multiple industries, including healthcare, education, finance, retail, real estate, manufacturing, and technology."
+        },
+        {
+          "question": "Do you offer ongoing support after project delivery?",
+          "answer": "Yes. We provide ongoing maintenance, technical support, performance monitoring, updates, and improvements to ensure your solution continues to perform reliably."
+        },
+        {
+          "question": "",
+          "answer": ""
+        },
+        {
+          "question": "",
+          "answer": ""
+        },
+        {
+          "question": "",
+          "answer": ""
+        }
+      ]
+    },
+    "finSecure": {
+      "metadata": {
+        "title": "Create Next App",
+        "description": "Generated by create next app",
+        "language": "en",
+        "icon": "/favicon.webp"
+      },
+      "brand": {
+        "name": "ORVEXIS",
+        "logo": "/images/logo.webp",
+        "logoAlt": "ORVEXIS IT Solutions & Technology",
+        "footerLogo": "/images/logo-w.webp",
+        "footerLogoAlt": "ORVEXIS - IT Solutions & Technology",
+        "clientLogo": "/images/logo.webp",
+        "clientLogoAlt": "ORVEXIS",
+        "clientLabel": ""
+      },
+      "navbar": {
+        "location": "742 Evergreen Terrace, 62704, United States",
+        "phone": "+00000000",
+        "phoneHref": "tel:+919876543210",
+        "email": "info@XYZ.com",
+        "emailHref": "mailto:info@XYZ.com",
+        "homeAriaLabel": "ORVEXIS Home",
+        "navLinks": [
+          { "name": "Home", "href": "#home" },
+          { "name": "About Us", "href": "#about-us" },
+          { "name": "Services", "href": "#services" },
+          { "name": "Why Choose Us", "href": "#why-choose-us" },
+          { "name": "Testimonials", "href": "#testimonials" },
+          { "name": "Faqs", "href": "#faqs" },
+          { "name": "", "href": "" }
+        ],
+        "socialLinks": [
+          { "name": "Facebook", "href": "#", "icon": "facebook", "size": 17 },
+          { "name": "LinkedIn", "href": "#", "icon": "linkedin", "size": 19 },
+          { "name": "X", "href": "#", "icon": "x", "size": 19 },
+          { "name": "YouTube", "href": "#", "icon": "youtube", "size": 20 }
+        ],
+        "contactLabel": "Contact Us",
+        "contactHref": "#contact",
+        "openMenuLabel": "Open menu",
+        "closeMenuLabel": "Close menu"
+      },
+      "hero": {
+        "badge": ["IT & Technology Solutions", "", ""],
+        "badgeSeparator": "",
+        "heading": "Technology Solutions",
+        "accent": "",
+        "highlight": "Business Growth",
+        "descriptionLines": [
+          "We build innovative, scalable and secure digital solutions",
+          "to accelerate your business in the modern world."
+        ],
+        "backgroundImage": "/images/hero-bg.webp",
+        "alt": "Business professionals celebrating successful teamwork",
+        "images": {
+          "shield": {
+            "src": "/images/worker.webp",
+            "alt": "Solar energy engineer",
+            "width": 115,
+            "height": 115
+          },
+          "coins": {
+            "src": "/images/solar-factory.webp",
+            "alt": "Solar panels at sunset",
+            "width": 160,
+            "height": 120
+          },
+          "growth": {
+            "src": "/images/installer.webp",
+            "alt": "Solar panel installation professional",
+            "width": 160,
+            "height": 120
+          },
+          "commercial": {
+            "src": "/images/solar-field.webp",
+            "alt": "Commercial building with solar panels"
+          },
+          "leaf": {
+            "src": "/images/leaf.webp",
+            "alt": "Green leaf"
+          }
+        },
+        "buttons": [
+          { "label": "Explore Our Services", "href": "#services" },
+          { "label": "Get a Consultation", "href": "#contact" }
+        ]
+      },
+      "about": {
+        "badge": "About Us",
+        "heading": "We Can Take Your Business To The",
+        "highlight": "Next Level.",
+        "highlightSuffix": "",
+        "description": "ORVEXIS is a technology-driven company delivering innovative, scalable and secure IT solutions that help businesses grow, optimize operations and stay ahead in the digital world.",
+        "additionalDescription": "",
+        "services": [
+          "Client-focused and result-oriented approach.",
+          "Expert team with deep technical expertise.",
+          "Reliable, scalable and future-ready solutions."
+        ],
+        "images": {
+          "consultation": {
+            "src": "/images/installer.webp",
+            "alt": "Solar panel installation professional"
+          },
+          "main": {
+            "src": "/images/about-solar-main.webp",
+            "alt": "Solar panels generating clean energy at sunset"
+          },
+          "team": {
+            "src": "/images/about-team.webp",
+            "alt": "Solar energy engineer"
+          },
+          "experience": {
+            "src": "/images/about-solar-house.webp",
+            "alt": "Modern home with rooftop solar panels",
+            "width": 160,
+            "height": 120
+          },
+          "growth": {
+            "src": "/images/solar-main.webp",
+            "alt": "Solar panels generating renewable energy during sunset",
+            "width": 160,
+            "height": 120
+          },
+          "decoration": {
+            "src": "/images/solar-panel-decoration.webp",
+            "alt": ""
+          }
+        },
+        "commitment": {
+          "title": "Our Goal",
+          "description": "Our goal is to make clean and renewable energy accessible, affordable, and hassle-free."
+        },
+        "experience": {
+          "value": "4000+",
+          "lines": ["Satisfied", "Clients"]
+        }
+      },
+      "financialServices": {
+        "defaultActiveNumber": "03",
+        "viewServiceLabelTemplate": "View {title}",
+        "items": [
+          {
+            "number": "01",
+            "title": "Software Development",
+            "firstLine": "Software",
+            "secondLine": "Development",
+            "icon": "Code2",
+            "description": "Custom, scalable and high-performance software solutions for your business needs.",
+            "benefits": [
+              "Custom",
+              "scalable",
+              "high-performance software solutions"
+            ],
+            "image": "/images/software-development.webp",
+            "alt": "Software Development"
+          },
+          {
+            "number": "02",
+            "title": "Cloud Solutions",
+            "firstLine": "Cloud",
+            "secondLine": "Solutions",
+            "icon": "Cloud",
+            "description": "Flexible, secure and cost-efficient cloud services to modernize your IT infrastructure.",
+            "benefits": [
+              "Flexible",
+              "secure",
+              "cost-efficient cloud services"
+            ],
+            "image": "/images/cloud-solutions.webp",
+            "alt": "Cloud Solutions"
+          },
+          {
+            "number": "03",
+            "title": "Cybersecurity",
+            "firstLine": "Cyber",
+            "secondLine": "security",
+            "icon": "ShieldCheck",
+            "description": "Comprehensive security solutions to protect your data, systems and business.",
+            "benefits": [
+              "Comprehensive security",
+              "protect your data",
+              "protect your business"
+            ],
+            "image": "/images/cybersecurity.webp",
+            "alt": "Cybersecurity"
+          },
+          {
+            "number": "04",
+            "title": "Battery Storage Solutions",
+            "firstLine": "Battery Storage",
+            "secondLine": "Solutions",
+            "icon": "BatteryCharging",
+            "description": "Store excess solar energy and enjoy reliable power whenever needed.",
+            "benefits": [
+              "Store excess solar energy",
+              "reliable power",
+              "whenever needed"
+            ],
+            "image": "/images/about-solar-house.webp",
+            "alt": "Battery Storage Solutions"
+          },
+          {
+            "number": "05",
+            "title": "Operation & Maintenance",
+            "firstLine": "Operation &",
+            "secondLine": "Maintenance",
+            "icon": "Wrench",
+            "description": "Keep your solar systems performing efficiently with expert maintenance.",
+            "benefits": [
+              "Keep your solar systems",
+              "performing efficiently",
+              "expert maintenance"
+            ],
+            "image": "/images/solar-field.webp",
+            "alt": "Operation & Maintenance"
+          },
+          {
+            "number": "06",
+            "title": "Solar Energy Consultation",
+            "firstLine": "Solar Energy",
+            "secondLine": "Consultation",
+            "icon": "Sun",
+            "description": "Get expert guidance to choose the right solar solution for your needs.",
+            "benefits": [
+              "Get expert guidance",
+              "choose the right solar solution",
+              "for your needs"
+            ],
+            "image": "/images/about-solar-main.webp",
+            "alt": "Solar Energy Consultation"
+          }
+        ]
+      },
+      "whyChooseUs": {
+        "badge": "Why Choose Us",
+        "heading": "The Right Technology Partner for",
+        "headingMiddle": "",
+        "highlight": "Your Business",
+        "description": "We combine expertise, innovation and a client-first approach to deliver IT solutions that create real business value.",
+        "tablistLabel": "Why Choose Us",
+        "image": {
+          "src": "/images/about-team.webp",
+          "alt": "Professional technology team collaborating on innovative business solutions"
+        },
+        "decorationImage": {
+          "src": "/images/solar-panel-bottom-decoration.webp",
+          "alt": ""
+        },
+        "features": [
+          {
+            "title": "Expert Team",
+            "description": "A skilled team of professionals with real-world experience.",
+            "icon": "Users",
+            "alt": ""
+          },
+          {
+            "title": "Innovative Solutions",
+            "description": "Modern and future-ready technology for lasting growth.",
+            "icon": "Lightbulb",
+            "alt": ""
+          },
+          {
+            "title": "Reliable & Secure",
+            "description": "Robust, scalable and secure solutions you can trust.",
+            "icon": "ShieldCheck",
+            "alt": ""
+          },
+          {
+            "title": "Client-Centric Approach",
+            "description": "We focus on your goals and deliver measurable results.",
+            "icon": "Handshake",
+            "alt": ""
+          }
+        ],
+        "award": {
+          "image": {
+            "src": "/images/solar-main.png",
+            "alt": "Solar panels generating renewable energy during sunset",
+            "width": 160,
+            "height": 120
+          },
+          "headingLines": ["Your Trusted Partner", "Solar Energy"]
+        },
+        "tabs": [
+          {
+            "id": "history",
+            "label": "Proven Expertise",
+            "description": "Years of experience in delivering solar solutions.",
+            "features": [
+              "Proven Expertise",
+              "Cost Effective",
+              "Reliable & Durable",
+              "Sustainable Choice"
+            ]
+          },
+          {
+            "id": "mission",
+            "label": "Cost Effective",
+            "description": "Maximum savings with high energy efficiency.",
+            "features": [
+              "Proven Expertise",
+              "Cost Effective",
+              "Reliable & Durable",
+              "Sustainable Choice"
+            ]
+          },
+          {
+            "id": "vision",
+            "label": "Sustainable Choice",
+            "description": "Clean, green, and renewable energy for a better tomorrow.",
+            "features": [
+              "Proven Expertise",
+              "Cost Effective",
+              "Reliable & Durable",
+              "Sustainable Choice"
+            ]
+          }
+        ]
+      },
+      "bankingPartners": {
+        "badge": "Our Banking Partners",
+        "heading": "Trusted by Leading",
+        "highlight": "Banks & Financial Institutions",
+        "items": [
+          { "name": "HDFC Bank", "image": "/images/hdfc.webp", "width": 170 },
+          { "name": "ICICI Bank", "image": "/images/icici.webp", "width": 180 },
+          { "name": "SBI", "image": "/images/sbi.webp", "width": 145 },
+          { "name": "Axis Bank", "image": "/images/axis.webp", "width": 170 },
+          { "name": "Kotak Mahindra Bank", "image": "/images/kotak.webp", "width": 180 },
+          { "name": "IndusInd Bank", "image": "/images/indusind.webp", "width": 170 }
+        ]
+      },
+      "team": {
+        "badge": "Our Team",
+        "heading": "Meet Our",
+        "highlight": "Expert Team",
+        "description": "A team of experienced professionals dedicated to delivering innovative financial solutions and creating long-term value for our clients.",
+        "shareLabelTemplate": "Share {name}'s profile",
+        "shareTitleTemplate": "{name} | FinSecure",
+        "shareTextTemplate": "{name} - {role} at FinSecure.",
+        "imageAltTemplate": "{name} - {role}",
+        "members": [
+          { "id": 1, "name": "Emily Carter", "role": "Investment Advisor", "image": "/images/team-1.webp" },
+          { "id": 2, "name": "Michael Brooks", "role": "Financial Consultant", "image": "/images/team-2.webp" },
+          { "id": 3, "name": "David Collins", "role": "Risk & Compliance Manager", "image": "/images/team-3.webp" }
+        ]
+      },
+      "testimonials": {
+        "eyebrow": "Testimonials",
+        "heading": "What Our Clients",
+        "highlight": "Say",
+        "headingSuffix": "Say",
+        "description": "Trusted by businesses across industries for reliable, innovative and result-driven IT solutions.",
+        "sectionImage": {
+          "src": "/images/testimonial-bg.png",
+          "alt": "Clients experiencing innovative virtual reality technology"
+        },
+        "previousLabel": "Previous testimonial",
+        "nextLabel": "Next testimonial",
+        "paginationLabelTemplate": "Go to testimonial {number}",
+        "starLabelTemplate": "{rating} out of 5 stars",
+        "defaultActiveIndex": 0,
+        "viewAllLabel": "View All Testimonials",
+        "viewAllHref": "#testimonials",
+        "imageAltTemplate": "{name}",
+        "reviewQuotePrefix": "“",
+        "reviewQuoteSuffix": "”",
+        "decorativeImages": {
+          "top": {
+            "src": "/images/solar-panel-top-decoration.webp",
+            "alt": ""
+          },
+          "card": {
+            "src": "/images/card-solar-decoration.webp",
+            "alt": ""
+          }
+        },
+        "items": [
+          {
+            "id": 1,
+            "name": "Rahul Verma",
+            "role": "CTO, Nexon Tech",
+            "position": "CTO, Nexon Tech",
+            "image": "/images/rohit-sharma.webp",
+            "review": "ORVEXIS delivered a robust and scalable solution that streamlined our operations and improved overall efficiency. Their team is professional, responsive and truly understands business needs.",
+            "message": "ORVEXIS delivered a robust and scalable solution that streamlined our operations and improved overall efficiency. Their team is professional, responsive and truly understands business needs.",
+            "rating": 4
+          },
+          {
+            "id": 2,
+            "name": "Priya Sharma",
+            "role": "Director, Digital Solutions",
+            "position": "Director, Digital Solutions",
+            "image": "/images/priya-mehta.webp",
+            "review": "Working with ORVEXIS has been a great experience. Their innovative approach, technical expertise and commitment to quality helped us achieve our digital transformation goals.",
+            "message": "Working with ORVEXIS has been a great experience. Their innovative approach, technical expertise and commitment to quality helped us achieve our digital transformation goals.",
+            "rating": 5
+          },
+          {
+            "id": 3,
+            "name": "Amit Mehta",
+            "role": "Founder, TechVision",
+            "position": "Founder, TechVision",
+            "image": "/images/rohit-sharma.webp",
+            "review": "The ORVEXIS team understood our requirements perfectly and delivered a reliable solution. Their communication, support and attention to detail made the entire process smooth.",
+            "message": "The ORVEXIS team understood our requirements perfectly and delivered a reliable solution. Their communication, support and attention to detail made the entire process smooth.",
+            "rating": 5
+          },
+          {
+            "id": 4,
+            "name": "Neha Kapoor",
+            "role": "Business Owner",
+            "image": "/images/priya-mehta.webp",
+            "review": "Their team helped us choose the perfect solar solution for our business. We are extremely happy with the quality, performance, and ongoing support.",
+            "rating": 5
+          },
+          {
+            "id": 5,
+            "name": "",
+            "role": "",
+            "image": "",
+            "review": "",
+            "rating": 5
+          }
+        ]
+      },
+      "faq": {
+        "badge": "FAQs",
+        "heading": "Frequently Asked",
+        "highlight": "Questions",
+        "description": "Find quick answers to common questions about our IT services, process, and support.",
+        "image": {
+          "src": "/images/faq-team.webp",
+          "alt": "Professional businesswoman working on a laptop in a modern office",
+          "width": 550,
+          "height": 423
+        },
+        "teamAvatars": [
+          "/images/team-1.webp",
+          "/images/team-2.webp",
+          "/images/team-3.webp",
+          "/images/team-1.webp"
+        ],
+        "teamAvatarAltTemplate": "FinSecure team member {number}",
+        "contactCard": {
+          "heading": "Have More Questions?",
+          "description": "Our team is happy to help you with any queries about our solar services.",
+          "contactLabel": "Contact Us",
+          "phone": "",
+          "phoneHref": ""
+        },
+        "items": [
+          {
+            "id": 1,
+            "question": "What IT services does ORVEXIS provide?",
+            "answer": "We offer a wide range of IT services including custom software development, cloud solutions, cybersecurity, IT consulting, and ongoing support & maintenance."
+          },
+          {
+            "id": 2,
+            "question": "How do you ensure the security of our data?",
+            "answer": "We follow industry-standard security practices, including data encryption, secure authentication, regular security audits, access controls, and continuous monitoring to help protect your business information."
+          },
+          {
+            "id": 3,
+            "question": "Can you develop a custom solution for our business?",
+            "answer": "Absolutely! We develop tailored software solutions based on your business goals, workflows, and requirements. Our team works closely with you throughout the development process."
+          },
+          {
+            "id": 4,
+            "question": "What industries do you work with?",
+            "answer": "We work with businesses across multiple industries, including healthcare, education, finance, retail, real estate, manufacturing, and technology."
+          },
+          {
+            "id": 5,
+            "question": "Do you offer ongoing support after project delivery?",
+            "answer": "Yes. We provide ongoing maintenance, technical support, performance monitoring, updates, and improvements to ensure your solution continues to perform reliably."
+          }
+        ]
+      },
+      "contact": {
+        "backgroundImage": "",
+        "eyebrow": "Get In Touch",
+        "heading": "Contact",
+        "highlight": "Us",
+        "description": "Have a project in mind or need IT support? Reach out to our team, we're here to help.",
+        "formHeading": "Send Us a",
+        "formHighlight": "Message",
+        "formAction": "https://formspree.io/f/YOUR_FORM_ID",
+        "formMethod": "POST",
+        "submitLabel": "Send Message",
+        "details": [
+          {
+            "icon": "location",
+            "title": "Our Location",
+            "value": "123 Tech Park, Sector 62, Noida – 201309",
+            "href": "https://www.google.com/maps/search/?api=1&query=Sector+62+Noida"
+          },
+          {
+            "icon": "phone",
+            "title": "Call Us",
+            "value": "+00000000",
+            "href": "tel:+919876543210"
+          },
+          {
+            "icon": "email",
+            "title": "Email Us",
+            "value": "info@XYZ.com",
+            "href": "mailto:info@XYZ.com"
+          },
+          {
+            "icon": "hours",
+            "title": "Business Hours",
+            "value": "Mon – Sat : 9:00 AM – 7:00 PM",
+            "href": ""
+          }
+        ],
+        "contactInfo": [
+          {
+            "icon": "location",
+            "title": "Our Location",
+            "lines": ["742 Evergreen Terrace,", "62704, United States"]
+          },
+          {
+            "icon": "email",
+            "title": "Email Us",
+            "lines": ["info@XYZ.com"]
+          },
+          {
+            "icon": "CalendarClock",
+            "title": "Working Hours",
+            "lines": ["Mon – Sat : 9:00 AM – 6:00 PM"]
+          }
+        ],
+        "subjects": [
+          "Residential Solar",
+          "Commercial Solar",
+          "Industrial Solar",
+          "Solar Installation",
+          "Maintenance",
+          "Other"
+        ],
+        "headingPrefix": "for",
+        "fields": {
+          "firstName": { "label": "Your Name", "name": "name", "placeholder": "Your Name", "type": "text", "autoComplete": "name" },
+          "lastName": { "placeholder": "", "type": "text" },
+          "email": { "label": "Your Email", "name": "email", "placeholder": "Your Email", "type": "email", "autoComplete": "email" },
+          "phone": { "placeholder": "Your Phone", "type": "tel" },
+          "subject": { "label": "Subject", "name": "subject", "placeholder": "Subject", "type": "text" },
+          "message": { "label": "Your Message", "name": "message", "placeholder": "Your Message", "type": "textarea", "rows": 4 }
+        }
+      },
+      "footer": {
+        "ctaHeading": ["Get in Touch With Us", "for IT Solutions"],
+        "ctaHighlight": "IT Solutions",
+        "brandLinkLabel": "ORVEXIS - IT Solutions & Technology",
+        "brandLinkHref": "/",
+        "description": "Delivering innovative, secure and scalable IT solutions that drive business growth and digital transformation.",
+        "socialLinks": [
+          { "name": "Facebook", "href": "#", "icon": "facebook" },
+          { "name": "LinkedIn", "href": "#", "icon": "linkedin" },
+          { "name": "Instagram", "href": "#", "icon": "instagram" },
+          { "name": "YouTube", "href": "#", "icon": "youtube" },
+          { "name": "X", "href": "#", "icon": "x" }
+        ],
+        "quickLinksHeading": "Quick Links",
+        "quickLinks": [
+          { "name": "Home", "href": "#home" },
+          { "name": "About Us", "href": "#about-us" },
+          { "name": "Services", "href": "#services" },
+          { "name": "Why Choose Us", "href": "#why-choose-us" }
+        ],
+        "teamLinksHeading": "Support",
+        "teamLinks": [
+          { "name": "Why Choose Us", "href": "#why-choose-us" },
+          { "name": "Testimonials", "href": "#testimonials" },
+          { "name": "FAQs", "href": "#faqs" },
+          { "name": "Contact Us", "href": "#contact" }
+        ],
+        "contactHeading": "Contact Info",
+        "contactDetails": [
+          {
+            "icon": "phone",
+            "text": "+00000000",
+            "href": "tel:+919876543210"
+          },
+          {
+            "icon": "email",
+            "text": "info@XYZ.com",
+            "href": "mailto:info@XYZ.com"
+          },
+          {
+            "icon": "location",
+            "text": "742 Evergreen Terrace, 62704, United States",
+            "href": "https://maps.google.com/?q=742+Evergreen+Terrace,+62704,+United+States"
+          }
+        ],
+        "excellenceImage": {
+          "src": "/images/logo-w.webp",
+          "alt": "ORVEXIS - IT Solutions & Technology",
+          "width": 350,
+          "height": 120
+        },
+        "copyright": "© 2026 ORVEXIS. All Rights Reserved.",
+        "backToTopLabel": "Back to Top",
+        "backToTopIcon": "↑"
+      }
+    }
+  }
+}
